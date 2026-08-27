@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>练习</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+  <script src="lodash.js"></script>
+  <script src="test.js"></script>
+  <script>
+    const obj = {
+      name: 'name',
+      money: 16,
+      family: {
+        baby: 'candy',
+        arr: [123,345,456,678]
+      }
+    }
+    const o = _.cloneDeep(obj)
+    console.log(o)
+  </script>
+</body>
+</html>

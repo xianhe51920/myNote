@@ -1,0 +1,43 @@
+/* ============================================
+   轮播图 响应式样式
+   核心技巧：
+   1. clamp(min, preferred, max)  流体缩放
+   2. aspect-ratio                 替代 calc 高度
+   3. @media (max-width)           小屏断点布局
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+table th {
+  padding: 2px 0;
+}
+
+
+table td {
+  padding: 10px 0;
+  border: 1px solid #d3d3d3;
+}
+
+
+
+table .header {
+  background-color: rgb(58, 153, 201);
+  color: #fff;
+}

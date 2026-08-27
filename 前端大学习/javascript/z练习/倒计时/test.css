@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.countdown {
+  margin: 20px auto;
+  width: 300px;
+  height: 400px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.countdown h1 {
+  display: inline-block;
+  margin-top: 50px;
+}
