@@ -2,12 +2,10 @@ package lambda;
 
 public class LambdaTest2 {
     public static void main(String[] args) {
-        useStringHandler((String msg) -> {
-            System.out.println(msg);
-        });
+        useStringHandler((String msg) -> System.out.println(msg));
     }
 
-    public static void useStringHandler(StringHandler stringHandler) {
+    private static void useStringHandler(StringHandler stringHandler) {
         stringHandler.printMessage("itheima");
     }
 }

@@ -10,7 +10,7 @@ public class LambdaTest3 {
         });
     }
 
-    public static void useRandomNumHandler(RandomNumHandler randomNumHandler) {
+    private static void useRandomNumHandler(RandomNumHandler randomNumHandler) {
         int result = randomNumHandler.getNumber();
         System.out.println(result);
     }

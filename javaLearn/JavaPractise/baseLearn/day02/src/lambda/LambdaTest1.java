@@ -2,12 +2,10 @@ package lambda;
 
 public class LambdaTest1 {
     public static void main(String[] args) {
-        useShowHandler(() -> {
-            System.out.println("lambda方法");
-        });
+        useShowHandler(() -> System.out.println("lambda方法"));
     }
 
-    public static void useShowHandler(ShowHandler showHandler) {
+    private static void useShowHandler(ShowHandler showHandler) {
         showHandler.show();
     }
 

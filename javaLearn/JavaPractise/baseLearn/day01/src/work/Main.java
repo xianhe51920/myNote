@@ -1,6 +1,6 @@
 package work;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Coder c1 = new Coder("fairy",18,18000);
         Manager m1 = new Manager("crane",23,49999,199);

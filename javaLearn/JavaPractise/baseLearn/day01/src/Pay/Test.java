@@ -15,7 +15,9 @@ public class Test {
         };
         System.out.println("请输入你的支付金额：");
         double m = sc.nextDouble();
-        p.pay(m);
+        if (p != null) {
+            p.pay(m);
+        }
     }
 }
 
