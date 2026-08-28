@@ -21,7 +21,6 @@ token*
 #trae
 .trae/
 
-
 # IntelliJ IDEA
 .idea/
 *.iml
