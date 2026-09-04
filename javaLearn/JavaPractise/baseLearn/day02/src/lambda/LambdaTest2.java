@@ -10,6 +10,7 @@ public class LambdaTest2 {
     }
 }
 
+@FunctionalInterface
 interface StringHandler {
     void printMessage(String msg);
 }
