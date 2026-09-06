@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" font-family="sans-serif" font-size="12">
+  <style>
+    .label { font-size: 12px; fill: #222; }
+    .axis { stroke: #333; stroke-width: 1.1; fill: none; }
+    .curve { stroke: #c0392b; stroke-width: 1.8; fill: none; stroke-linejoin: round; }
+    .dash { stroke: #c0392b; stroke-dasharray: 3 2; fill: none; }
+    .pt { fill: #c0392b; }
+  </style>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#333"/></marker>
+  </defs>
+  <line x1="60" y1="120" x2="330" y2="120" class="axis" marker-end="url(#arr)"/>
+  <line x1="60" y1="230" x2="60" y2="25" class="axis" marker-end="url(#arr)"/>
+  <text class="label" x="334" y="124">t/s</text>
+  <text class="label" x="68" y="26">x/cm</text>
+  <!-- y ticks: 4->40, 0->120, -4->200 -->
+  <line x1="55" y1="40" x2="60" y2="40" stroke="#333"/>
+  <text class="label" x="50" y="44" text-anchor="end">4</text>
+  <text class="label" x="50" y="124" text-anchor="end">0</text>
+  <line x1="55" y1="200" x2="60" y2="200" stroke="#333"/>
+  <text class="label" x="50" y="204" text-anchor="end">-4</text>
+  <!-- t ticks: 0.5->143, 1->227 -->
+  <line x1="143" y1="120" x2="143" y2="126" stroke="#333"/>
+  <text class="label" x="143" y="140" text-anchor="middle">0.5</text>
+  <line x1="227" y1="120" x2="227" y2="126" stroke="#333"/>
+  <text class="label" x="227" y="140" text-anchor="middle">1</text>
+  <!-- marked times on the t-axis: 1/6, 2/3, 7/6 -->
+  <line x1="88" y1="120" x2="88" y2="126" stroke="#333"/>
+  <text class="label" x="88" y="140" text-anchor="middle">1/6</text>
+  <line x1="171" y1="120" x2="171" y2="126" stroke="#333"/>
+  <text class="label" x="171" y="140" text-anchor="middle">2/3</text>
+  <line x1="254" y1="120" x2="254" y2="126" stroke="#333"/>
+  <text class="label" x="254" y="140" text-anchor="middle">7/6</text>
+  <!-- curve: x = 4 cos(2π t - π/3) cm, t in [0,1.2] -->
+  <path class="curve" d="M 60,80 L 63.3,71.6 L 66.7,64 L 70,57.3 L 73.3,51.6 L 76.7,46.9 L 80,43.4 L 83.3,41.1 L 86.7,40.1 L 90,40.3 L 93.3,41.7 L 96.7,44.4 L 100,48.3 L 103.3,53.4 L 106.7,59.4 L 110,66.5 L 113.3,74.3 L 116.7,82.9 L 120,92.1 L 123.3,101.7 L 126.7,111.6 L 130,121.7 L 133.3,131.7 L 136.7,141.5 L 140,151 L 143.3,160 L 146.7,168.4 L 150,176 L 153.3,182.7 L 156.7,188.4 L 160,193.1 L 163.3,196.6 L 166.7,198.9 L 170,199.9 L 173.3,199.7 L 176.7,198.3 L 180,195.6 L 183.3,191.7 L 186.7,186.6 L 190,180.6 L 193.3,173.5 L 196.7,165.7 L 200,157.1 L 203.3,147.9 L 206.7,138.3 L 210,128.4 L 213.3,118.3 L 216.7,108.3 L 220,98.5 L 223.3,89 L 226.7,80 L 230,71.6 L 233.3,64 L 236.7,57.3 L 240,51.6 L 243.3,46.9 L 246.7,43.4 L 250,41.1 L 253.3,40.1 L 256.7,40.3 L 260,41.7"/>
+  <!-- start t=0, x=2cm -->
+  <circle cx="60" cy="80" r="2.5" class="pt"/>
+  <line x1="60" y1="80" x2="60" y2="120" class="dash"/>
+  <!-- peak t=1/6, x=4cm -->
+  <circle cx="88" cy="40" r="2.5" class="pt"/>
+  <line x1="88" y1="40" x2="88" y2="120" class="dash"/>
+  <!-- zero crossing t=5/12 -->
+  <circle cx="129.4" cy="120" r="2" class="pt"/>
+  <!-- minimum t=2/3, x=-4cm -->
+  <circle cx="171" cy="200" r="2.5" class="pt"/>
+  <line x1="171" y1="200" x2="171" y2="120" class="dash"/>
+  <!-- next peak t=7/6 -->
+  <circle cx="254" cy="40" r="2.5" class="pt"/>
+  <line x1="254" y1="40" x2="254" y2="120" class="dash"/>
+</svg>

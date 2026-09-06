@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 372" font-family="sans-serif" font-size="11">
+  <defs><marker id="tarr" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#444"/></marker></defs>
+  <style>
+    .label { font-size: 10px; fill: #222; }
+    .frame-line { stroke: #777; stroke-width: 1; fill: none; }
+    .wall { stroke: #444; stroke-width: 1.5; fill: none; }
+    .spring { stroke: #444; stroke-width: 1.4; fill: none; stroke-linejoin: round; }
+    .block { fill: #f3c623; stroke: #b8881a; stroke-width: 1; }
+    .arrow { fill: #c0392b; }
+    .guide { stroke: #999; stroke-dasharray: 4 3; fill: none; }
+    .k { font-style: italic; font-size: 10px; fill: #222; }
+  </style>
+  <line x1="140" y1="0" x2="140" y2="318" class="guide"/>
+  <g transform="translate(0,0)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.4,8 16.8,16 22.2,8 27.6,16 33,8 38.4,16 43.8,8 49.2,16 54.6,8 60,12"/>
+    <rect x="60" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="70" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+  </g>
+  <g transform="translate(0,34)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.3,8 16.7,16 22,8 27.3,16 32.7,8 38,16 43.3,8 48.7,16 54,8 59.3,16 64.7,8 70,12"/>
+    <rect x="70" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="80" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+  </g>
+  <g transform="translate(0,68)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.3,8 16.6,16 21.9,8 27.1,16 32.4,8 37.7,16 43,8 48.3,16 53.6,8 58.9,16 64.1,8 69.4,16 74.7,8 80,12"/>
+    <rect x="80" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="90" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+  </g>
+  <g transform="translate(0,102)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.2,8 16.5,16 21.8,8 27,16 32.2,8 37.5,16 42.8,8 48,16 53.2,8 58.5,16 63.8,8 69,16 74.2,8 79.5,16 84.8,8 90,12"/>
+    <rect x="90" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="100" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+  </g>
+  <g transform="translate(0,136)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.2,8 16.4,16 21.7,8 26.9,16 32.1,8 37.3,16 42.6,8 47.8,16 53,8 58.2,16 63.4,8 68.7,16 73.9,8 79.1,16 84.3,8 89.6,16 94.8,8 100,12"/>
+    <rect x="100" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="110" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+    <polygon class="arrow" points="124,8 133,12 124,16"/>
+  </g>
+  <g transform="translate(0,170)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.2,8 16.5,16 21.8,8 27,16 32.2,8 37.5,16 42.8,8 48,16 53.2,8 58.5,16 63.8,8 69,16 74.2,8 79.5,16 84.8,8 90,12"/>
+    <rect x="90" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="100" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+    <polygon class="arrow" points="88,8 79,12 88,16"/>
+  </g>
+  <g transform="translate(0,204)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.3,8 16.6,16 21.9,8 27.1,16 32.4,8 37.7,16 43,8 48.3,16 53.6,8 58.9,16 64.1,8 69.4,16 74.7,8 80,12"/>
+    <rect x="80" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="90" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+    <polygon class="arrow" points="78,8 69,12 78,16"/>
+  </g>
+  <g transform="translate(0,238)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.3,8 16.7,16 22,8 27.3,16 32.7,8 38,16 43.3,8 48.7,16 54,8 59.3,16 64.7,8 70,12"/>
+    <rect x="70" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="80" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+    <polygon class="arrow" points="68,8 59,12 68,16"/>
+  </g>
+  <g transform="translate(0,272)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.4,8 16.8,16 22.2,8 27.6,16 33,8 38.4,16 43.8,8 49.2,16 54.6,8 60,12"/>
+    <rect x="60" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="70" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+    <polygon class="arrow" points="58,8 49,12 58,16"/>
+  </g>
+  <g transform="translate(0,306)">
+    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
+    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
+    <polyline class="spring" points="6,12 11.3,8 16.6,16 21.9,8 27.1,16 32.4,8 37.7,16 43,8 48.3,16 53.6,8 58.9,16 64.1,8 69.4,16 74.7,8 80,12"/>
+    <rect x="80" y="2" width="20" height="20" class="block"/>
+    <text class="label" x="90" y="16" text-anchor="middle">m</text>
+    <text class="k" x="10" y="7">k</text>
+    <polygon class="arrow" points="104,8 113,12 104,16"/>
+  </g>
+  <line x1="55" y1="340" x2="205" y2="340" stroke="#444" stroke-width="1.4" marker-end="url(#tarr)"/>
+  <text class="label" x="130" y="360" text-anchor="middle">时间 t</text>
+</svg>

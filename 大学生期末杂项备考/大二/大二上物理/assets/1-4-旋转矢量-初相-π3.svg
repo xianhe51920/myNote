@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340" font-family="sans-serif" font-size="12">
+  <style>
+    .label { font-size: 12px; fill: #222; }
+    .axis { stroke: #333; stroke-width: 1.1; fill: none; }
+    .vec { stroke: #c0392b; stroke-width: 2.2; fill: none; marker-end: url(#vecArrow); }
+    .arc { stroke: #c0392b; stroke-width: 1.4; fill: none; marker-end: url(#arcArrow); }
+    .om { stroke: #2c3e50; stroke-width: 1.3; fill: none; marker-end: url(#omArrow); }
+    .note { font-size: 12px; fill: #c0392b; }
+  </style>
+  <defs>
+    <marker id="axArrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#333"/></marker>
+    <marker id="vecArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#c0392b"/></marker>
+    <marker id="arcArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#c0392b"/></marker>
+    <marker id="omArrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><polygon points="0 0, 9 4.5, 0 9" fill="#2c3e50"/></marker>
+  </defs>
+  <line x1="60" y1="170" x2="290" y2="170" class="axis" marker-end="url(#axArrow)"/>
+  <line x1="170" y1="292" x2="170" y2="48" class="axis" marker-end="url(#axArrow)"/>
+  <text class="label" x="297" y="174">x</text>
+  <text class="label" x="178" y="56">y</text>
+  <circle cx="170" cy="170" r="100" fill="none" stroke="#333" stroke-width="1"/>
+  <text class="label" x="58" y="174" text-anchor="middle">-A</text>
+  <text class="label" x="272" y="174" text-anchor="middle">A</text>
+  <path d="M 104.5,124 A 80 80 0 0 1 170,92" class="om"/>
+  <text class="label" x="104" y="84" text-anchor="middle">ω</text>
+  <!-- rotating vector at φ0 = -π/3 (down-right, -60°) -->
+  <line x1="170" y1="170" x2="220" y2="257" class="vec"/>
+  <!-- phase arc from +x axis to vector, clockwise (φ0 = -π/3) -->
+  <path d="M 232,170 A 62 62 0 0 1 201,224" class="arc"/>
+  <text class="note" x="241" y="211" text-anchor="middle">φ₀ = -π/3</text>
+</svg>

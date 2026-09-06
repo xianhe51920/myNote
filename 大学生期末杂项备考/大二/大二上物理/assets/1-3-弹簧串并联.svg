@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 252" font-family="sans-serif" font-size="12">
+  <style>
+    .label { font-size: 12px; fill: #222; }
+    .rail { stroke: #333; stroke-width: 1.5; fill: none; }
+    .spring { stroke: #444; stroke-width: 1.5; fill: none; stroke-linejoin: round; }
+    .block { fill: #f3c623; stroke: #b8881a; stroke-width: 1.2; }
+    .stem { stroke: #333; stroke-width: 1.2; fill: none; }
+  </style>
+
+  <!-- ============ Frame 1: original spring k (single, coaxial) ============ -->
+  <line x1="50" y1="20" x2="170" y2="20" class="rail"/>
+  <line x1="50" y1="12" x2="50" y2="28" class="rail"/>
+  <line x1="170" y1="12" x2="170" y2="28" class="rail"/>
+  <polyline class="spring" points="110,28 117,36 103,44 117,52 103,60 117,68 103,76 117,84 103,92 117,100 103,108 117,116 110,120"/>
+  <rect x="86" y="120" width="48" height="44" class="block"/>
+  <line x1="110" y1="164" x2="110" y2="188" class="stem"/>
+  <text class="label" x="110" y="206" text-anchor="middle">k</text>
+  <text class="label" x="110" y="238" text-anchor="middle">原弹簧 k</text>
+
+  <!-- ============ Frame 2: two halves in SERIES (coaxial, stacked) ============ -->
+  <line x1="260" y1="20" x2="380" y2="20" class="rail"/>
+  <line x1="260" y1="12" x2="260" y2="28" class="rail"/>
+  <line x1="380" y1="12" x2="380" y2="28" class="rail"/>
+  <polyline class="spring" points="320,28 327,35 313,42 327,49 313,56 327,63 313,69 320,75"/>
+  <polyline class="spring" points="320,75 327,82 313,89 327,96 313,103 327,110 313,116 320,122"/>
+  <text class="label" x="340" y="52">k'</text>
+  <text class="label" x="340" y="100">k'</text>
+  <rect x="296" y="122" width="48" height="44" class="block"/>
+  <line x1="320" y1="166" x2="320" y2="188" class="stem"/>
+  <text class="label" x="320" y="238" text-anchor="middle">两段串联</text>
+
+  <!-- ============ Frame 3: two halves in PARALLEL (side by side) ============ -->
+  <line x1="470" y1="20" x2="590" y2="20" class="rail"/>
+  <line x1="470" y1="12" x2="470" y2="28" class="rail"/>
+  <line x1="590" y1="12" x2="590" y2="28" class="rail"/>
+  <polyline class="spring" points="516,28 523,36 509,44 523,52 509,60 523,68 509,76 523,84 509,92 523,100 509,108 523,114 516,120"/>
+  <polyline class="spring" points="544,28 551,36 537,44 551,52 537,60 551,68 537,76 551,84 537,92 551,100 537,108 551,114 544,120"/>
+  <text class="label" x="498" y="50">k'</text>
+  <text class="label" x="556" y="50">k'</text>
+  <rect x="506" y="120" width="48" height="44" class="block"/>
+  <line x1="530" y1="164" x2="530" y2="188" class="stem"/>
+  <text class="label" x="530" y="238" text-anchor="middle">两段并联</text>
+</svg>

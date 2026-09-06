@@ -113,6 +113,9 @@ pnpm-lock.yaml
 *.drawio
 *.drawio.bak
 
+# 笔记配图目录例外：任意层级 assets/ 下的 svg 作为笔记插图需被 Git 追踪
+!**/assets/*.svg
+
 # ==================== 视频/音频 ====================
 *.mp4
 *.mov

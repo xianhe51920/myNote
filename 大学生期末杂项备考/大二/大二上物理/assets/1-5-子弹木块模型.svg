@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" font-family="sans-serif" font-size="13">
+  <style>
+    .label { font-size: 13px; fill: #222; }
+    .wall { stroke: #333; stroke-width: 2; fill: none; }
+    .spring { stroke: #444; stroke-width: 1.4; fill: none; stroke-linejoin: round; }
+    .block { fill: #f3c623; stroke: #b8881a; stroke-width: 1.2; }
+    .bullet { fill: #c0392b; }
+    .arrow { stroke: #c0392b; stroke-width: 1.6; fill: none; marker-end: url(#m); }
+  </style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#c0392b"/></marker></defs>
+  <line x1="50" y1="60" x2="50" y2="130" class="wall"/>
+  <line x1="50" y1="66" x2="36" y2="66" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="80" x2="36" y2="80" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="94" x2="36" y2="94" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="108" x2="36" y2="108" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="122" x2="36" y2="122" stroke="#333" stroke-width="1.4"/>
+  <polyline class="spring" points="50,95 59.7,87 69.4,103 79.1,87 88.8,103 98.4,87 108.1,103 117.8,87 127.5,103 137.2,87 146.9,103 156.6,87 166.2,103 175.9,87 185.6,103 195.3,87 205,95"/>
+  <text class="label" x="112" y="70">k</text>
+  <rect x="205" y="72" width="70" height="46" class="block"/>
+  <text class="label" x="240" y="100" text-anchor="middle">M</text>
+  <circle cx="330" cy="95" r="9" class="bullet"/>
+  <text class="label" x="330" y="128" text-anchor="middle">m</text>
+  <line x1="352" y1="95" x2="292" y2="95" class="arrow"/>
+  <text class="label" x="318" y="84" text-anchor="middle">v</text>
+  <line x1="50" y1="200" x2="50" y2="270" class="wall"/>
+  <line x1="50" y1="206" x2="36" y2="206" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="220" x2="36" y2="220" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="234" x2="36" y2="234" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="248" x2="36" y2="248" stroke="#333" stroke-width="1.4"/>
+  <line x1="50" y1="262" x2="36" y2="262" stroke="#333" stroke-width="1.4"/>
+  <polyline class="spring" points="50,235 59.1,227 68.1,243 77.2,227 86.2,243 95.3,227 104.4,243 113.4,227 122.5,243 131.6,227 140.6,243 149.7,227 158.8,243 167.8,227 176.9,243 185.9,227 195,235"/>
+  <rect x="195" y="212" width="70" height="46" class="block"/>
+  <circle cx="230" cy="235" r="6" class="bullet"/>
+  <line x1="252" y1="235" x2="200" y2="235" class="arrow"/>
+  <text class="label" x="226" y="224" text-anchor="middle">v₀</text>
+  <text class="label" x="280" y="308" text-anchor="middle">子弹射入木块前后</text>
+</svg>
