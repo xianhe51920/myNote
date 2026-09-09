@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" font-family="sans-serif" font-size="13">
+  <style>
+    .hd { font-size: 13px; fill: #7A3448; text-anchor: middle; }
+    .cell { fill: #FFF6F8; stroke: #E9A8BC; stroke-width: 1; }
+    .type { fill: #F8BBD0; stroke: #E9A8BC; stroke-width: 1; }
+    .formula { font-size: 15px; fill: #D66E8E; text-anchor: middle; font-style: italic; }
+  </style>
+  <!-- header -->
+  <rect x="40" y="30" width="160" height="30" class="type"/>
+  <text class="hd" x="120" y="50">存储地址</text>
+  <rect x="220" y="30" width="160" height="30" class="type"/>
+  <text class="hd" x="300" y="50">存储内容</text>
+  <!-- rows -->
+  <!-- row1 -->
+  <rect x="40" y="70" width="160" height="36" class="cell"/><text x="120" y="92" text-anchor="middle">L₀</text>
+  <rect x="220" y="70" width="160" height="36" class="cell"/><text x="300" y="92" text-anchor="middle">元素₁</text>
+  <!-- row2 -->
+  <rect x="40" y="110" width="160" height="36" class="cell"/><text x="120" y="132" text-anchor="middle">L₀+m</text>
+  <rect x="220" y="110" width="160" height="36" class="cell"/><text x="300" y="132" text-anchor="middle">元素₂</text>
+  <!-- row3 -->
+  <rect x="40" y="150" width="160" height="36" class="cell"/><text x="120" y="172" text-anchor="middle">……</text>
+  <rect x="220" y="150" width="160" height="36" class="cell"/><text x="300" y="172" text-anchor="middle">……</text>
+  <!-- row4 -->
+  <rect x="40" y="190" width="160" height="36" class="cell"/><text x="120" y="212" text-anchor="middle">L₀+(i-1)·m</text>
+  <rect x="220" y="190" width="160" height="36" class="cell"/><text x="300" y="212" text-anchor="middle">元素ᵢ</text>
+  <!-- row5 -->
+  <rect x="40" y="230" width="160" height="36" class="cell"/><text x="120" y="252" text-anchor="middle">……</text>
+  <rect x="220" y="230" width="160" height="36" class="cell"/><text x="300" y="252" text-anchor="middle">……</text>
+  <!-- row6 -->
+  <rect x="40" y="270" width="160" height="36" class="cell"/><text x="120" y="292" text-anchor="middle">L₀+(n-1)·m</text>
+  <rect x="220" y="270" width="160" height="36" class="cell"/><text x="300" y="292" text-anchor="middle">元素ₙ</text>
+</svg>

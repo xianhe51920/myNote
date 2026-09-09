@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif" font-size="13">
+  <style>
+    .label { font-size: 13px; fill: #222; }
+    .wall { stroke: #333; stroke-width: 2; fill: none; }
+    .spring { stroke: #444; stroke-width: 1.4; fill: none; stroke-linejoin: round; }
+    .block { fill: #f3c623; stroke: #b8881a; stroke-width: 1.2; }
+    .note { font-size: 13px; fill: #c0392b; }
+  </style>
+  <line x1="45" y1="40" x2="45" y2="100" class="wall"/>
+  <line x1="45" y1="46" x2="31" y2="46" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="56" x2="31" y2="56" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="66" x2="31" y2="66" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="76" x2="31" y2="76" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="86" x2="31" y2="86" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="96" x2="31" y2="96" stroke="#333" stroke-width="1.4"/>
+  <polyline class="spring" points="45,70 53.8,63 62.5,77 71.2,63 80,77 88.8,63 97.5,77 106.2,63 115,77 123.8,63 132.5,77 141.2,63 150,70"/>
+  <rect x="150" y="48" width="60" height="44" class="block"/>
+  <text class="label" x="180" y="75" text-anchor="middle">m</text>
+  <text class="label" x="180" y="34" text-anchor="middle">v=0</text>
+  <text class="note" x="250" y="58" text-anchor="start">E_k = 0</text>
+  <text class="note" x="250" y="82" text-anchor="start">E_p = ½kA²</text>
+  <line x1="45" y1="170" x2="45" y2="230" class="wall"/>
+  <line x1="45" y1="176" x2="31" y2="176" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="186" x2="31" y2="186" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="196" x2="31" y2="196" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="206" x2="31" y2="206" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="216" x2="31" y2="216" stroke="#333" stroke-width="1.4"/>
+  <line x1="45" y1="226" x2="31" y2="226" stroke="#333" stroke-width="1.4"/>
+  <polyline class="spring" points="45,200 59.3,193 73.6,207 87.9,193 102.1,207 116.4,193 130.7,207 145,193 159.3,207 173.6,193 187.9,207 202.1,193 216.4,207 230.7,193 245,200"/>
+  <rect x="245" y="178" width="60" height="44" class="block"/>
+  <text class="label" x="275" y="205" text-anchor="middle">m</text>
+  <text class="note" x="345" y="188" text-anchor="start">E_k = ½kA²</text>
+  <text class="note" x="345" y="212" text-anchor="start">E_p = 0</text>
+  <text class="note" x="350" y="272" text-anchor="middle">E总 = ½kA² （机械能守恒，不变）</text>
+</svg>
