@@ -34,6 +34,6 @@
 <line x1="120" y1="278" x2="440.0" y2="278" stroke="#c0392b" stroke-width="1.2" marker-start="url(#blArrow)" marker-end="url(#blArrow)"/>
 <line x1="120" y1="278" x2="120" y2="166" stroke="#c0392b" stroke-dasharray="2 2"/>
 <line x1="440.0" y1="278" x2="440.0" y2="166" stroke="#c0392b" stroke-dasharray="2 2"/>
-<text class="note" x="280.0" y="294" text-anchor="middle">λ（波长）</text>
+<text class="note" x="280.0" y="294" text-anchor="middle">λ = 40 m</text>
 <line x1="440.0" y1="154" x2="440.0" y2="166" class="tickv"/>
 </svg>
