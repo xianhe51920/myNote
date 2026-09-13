@@ -183,4 +183,9 @@ javaLearn/APIdoc/JDK_API_1_6_zh_CN.chw
 javaLearn/APIdoc/jdk-11中文api修订版.CHM
 javaLearn/APIdoc/jdk-11中文api修订版.chw
 *.cmd
-.ssh_kh
+*.ssh_kh
+*ps1
+*.sh
+*.patch
+*.mjs
+*.moved
