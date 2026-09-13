@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260" font-family="sans-serif" font-size="12">
+  <style>
+    .label { font-size: 12px; fill: #222; }
+    .axis { stroke: #333; stroke-width: 1.1; fill: none; }
+    .curve { stroke: #c0392b; stroke-width: 1.8; fill: none; stroke-linejoin: round; }
+    .dash { stroke: #c0392b; stroke-dasharray: 3 2; fill: none; }
+    .pt { fill: #c0392b; }
+    .note { font-size: 12px; fill: #c0392b; }
+  </style>
+  <defs>
+    <marker id="axArrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#333"/></marker>
+    <marker id="blArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#2c3e50"/></marker>
+  </defs>
+<line x1="20" y1="130" x2="410" y2="130" class="axis" marker-end="url(#axArrow)"/>
+<line x1="90" y1="210" x2="90" y2="50" class="axis" marker-end="url(#axArrow)"/>
+<text class="label" x="406" y="122">x/m</text>
+<text class="label" x="98" y="48">y/cm</text>
+<line x1="110" y1="38" x2="200" y2="38" stroke="#2c3e50" stroke-width="1.8" marker-end="url(#blArrow)"/>
+<text class="label" x="205" y="42" fill="#2c3e50">u</text>
+<path d="M 90.0,75.0 L 93.2,75.2 L 96.4,75.7 L 99.6,76.5 L 102.8,77.6 L 106.0,79.1 L 109.2,80.8 L 112.4,82.9 L 115.6,85.2 L 118.8,87.8 L 122.0,90.6 L 125.2,93.7 L 128.4,97.0 L 131.6,100.5 L 134.8,104.2 L 138.0,108.0 L 141.2,112.0 L 144.4,116.1 L 147.6,120.2 L 150.8,124.4 L 154.0,128.7 L 157.2,132.9 L 160.4,137.2 L 163.6,141.3 L 166.8,145.5 L 170.0,149.5 L 173.2,153.4 L 176.4,157.2 L 179.6,160.8 L 182.8,164.2 L 186.0,167.5 L 189.2,170.5 L 192.4,173.2 L 195.6,175.7 L 198.8,177.9 L 202.0,179.9 L 205.2,181.5 L 208.4,182.9 L 211.6,183.9 L 214.8,184.6 L 218.0,184.9 L 221.2,185.0 L 224.4,184.7 L 227.6,184.1 L 230.8,183.1 L 234.0,181.9 L 237.2,180.3 L 240.4,178.5 L 243.6,176.3 L 246.8,173.9 L 250.0,171.2 L 253.2,168.2 L 256.4,165.1 L 259.6,161.7 L 262.8,158.1 L 266.0,154.4 L 269.2,150.5 L 272.4,146.5 L 275.6,142.4 L 278.8,138.2 L 282.0,134.0 L 285.2,129.7 L 288.4,125.5 L 291.6,121.3 L 294.8,117.1 L 298.0,113.0 L 301.2,109.0 L 304.4,105.1 L 307.6,101.4 L 310.8,97.9 L 314.0,94.5 L 317.2,91.4 L 320.4,88.5 L 323.6,85.8 L 326.8,83.4 L 330.0,81.3 L 333.2,79.5 L 336.4,77.9 L 339.6,76.7 L 342.8,75.8 L 346.0,75.3 L 349.2,75.0 L 352.4,75.1 L 355.6,75.5 L 358.8,76.2 L 362.0,77.3 L 365.2,78.7 L 368.4,80.3 L 371.6,82.3 L 374.8,84.6 L 378.0,87.1 L 381.2,89.9 L 384.4,92.9 L 387.6,96.2 L 390.8,99.6 L 394.0,103.3 L 397.2,107.1 L 400.4,111.0 L 403.6,115.0 L 406.8,119.2 L 410.0,123.4" class="curve"/>
+<circle cx="90" cy="75" r="3" class="pt"/>
+<text class="label" x="76" y="146" text-anchor="middle">O</text>
+</svg>
