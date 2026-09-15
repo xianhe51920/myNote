@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 265" font-family="sans-serif" font-size="12">
+  <style>
+    .label { font-size: 12px; fill: #222; }
+    .axis { stroke: #333; stroke-width: 1.1; fill: none; }
+    .curve { stroke: #c0392b; stroke-width: 2; fill: none; stroke-linejoin: round; }
+    .dash { stroke: #999; stroke-dasharray: 4 3; fill: none; }
+    .pt { fill: #c0392b; }
+    .note { font-size: 12px; fill: #c0392b; }
+    .tick { stroke: #333; stroke-width: 1; }
+    .title { font-size: 12.5px; fill: #222; font-weight: 600; }
+  </style>
+  <defs>
+    <marker id="axArrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#333"/></marker>
+  </defs>
+<line x1="50" y1="200" x2="274.20000000000005" y2="200" class="axis" marker-end="url(#axArrow)"/>
+<line x1="95" y1="222" x2="95" y2="66.60000000000002" class="axis" marker-end="url(#axArrow)"/>
+<text class="label" x="278.20000000000005" y="204">x</text>
+<text class="label" x="101" y="60.60000000000002">F(x)</text>
+<line x1="90" y1="85.0" x2="100" y2="85.0" class="tick"/>
+<text class="note" x="87" y="89.0" text-anchor="end">1</text>
+<line x1="151.0" y1="195" x2="151.0" y2="205" class="tick"/>
+<text class="label" x="151.0" y="218" text-anchor="middle">1</text>
+<line x1="247.22378239370653" y1="195" x2="247.22378239370653" y2="205" class="tick"/>
+<text class="label" x="247.22378239370653" y="218" text-anchor="middle">e</text>
+<path d="M 95.0,200.0 L 151.0,200.0 L 152.6,196.8 L 154.2,193.6 L 155.8,190.5 L 157.4,187.5 L 159.0,184.6 L 160.6,181.8 L 162.2,179.0 L 163.8,176.3 L 165.4,173.6 L 167.0,171.0 L 168.6,168.5 L 170.2,166.0 L 171.8,163.6 L 173.5,161.2 L 175.1,158.9 L 176.7,156.6 L 178.3,154.4 L 179.9,152.2 L 181.5,150.0 L 183.1,147.9 L 184.7,145.8 L 186.3,143.8 L 187.9,141.8 L 189.5,139.8 L 191.1,137.9 L 192.7,136.0 L 194.3,134.1 L 195.9,132.3 L 197.5,130.5 L 199.1,128.7 L 200.7,126.9 L 202.3,125.2 L 203.9,123.5 L 205.5,121.8 L 207.1,120.2 L 208.7,118.5 L 210.3,116.9 L 211.9,115.3 L 213.5,113.8 L 215.1,112.2 L 216.8,110.7 L 218.4,109.2 L 220.0,107.7 L 221.6,106.2 L 223.2,104.8 L 224.8,103.4 L 226.4,101.9 L 228.0,100.5 L 229.6,99.2 L 231.2,97.8 L 232.8,96.5 L 234.4,95.1 L 236.0,93.8 L 237.6,92.5 L 239.2,91.2 L 240.8,90.0 L 242.4,88.7 L 244.0,87.4 L 245.6,86.2 L 247.2,85.0 L 274.2,85.0" class="curve"/>
+<circle cx="151.0" cy="200.0" r="3" class="pt"/>
+<circle cx="247.22378239370653" cy="85.0" r="3" class="pt"/>
+<text class="note" x="254.22378239370653" y="78.0">F(e)=1</text>
+<text class="note" x="158.0" y="193.0">F(1)=0</text>
+<text class="title" x="65" y="32">分布函数 F(x)：x&lt;1 时为 0，1≤x&lt;e 时为 ln x，x≥e 时为 1</text>
+</svg>

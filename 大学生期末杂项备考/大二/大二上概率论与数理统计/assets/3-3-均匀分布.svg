@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 275" font-family="sans-serif" font-size="12">
+  <style>
+    .label { font-size: 12px; fill: #222; }
+    .axis { stroke: #333; stroke-width: 1.1; fill: none; }
+    .curve { stroke: #c0392b; stroke-width: 2; fill: none; stroke-linejoin: round; }
+    .dash { stroke: #999; stroke-dasharray: 4 3; fill: none; }
+    .pt { fill: #c0392b; }
+    .note { font-size: 12px; fill: #c0392b; }
+    .tick { stroke: #333; stroke-width: 1; }
+    .title { font-size: 12.5px; fill: #222; font-weight: 600; }
+  </style>
+  <defs>
+    <marker id="axArrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#333"/></marker>
+  </defs>
+<line x1="53" y1="200" x2="237.0" y2="200" class="axis" marker-end="url(#axArrow)"/>
+<line x1="85" y1="220" x2="85" y2="65.0" class="axis" marker-end="url(#axArrow)"/>
+<text class="label" x="241.0" y="204">x</text>
+<text class="label" x="91" y="59.0">y</text>
+<line x1="80" y1="100.0" x2="90" y2="100.0" class="tick"/>
+<text class="note" x="77" y="104.0" text-anchor="end">1</text>
+<line x1="85.0" y1="100.0" x2="180.0" y2="100.0" class="curve"/>
+<line x1="85.0" y1="200.0" x2="85.0" y2="100.0" class="curve"/>
+<line x1="180.0" y1="200.0" x2="180.0" y2="100.0" class="curve"/>
+<line x1="180.0" y1="195" x2="180.0" y2="205" class="tick"/>
+<text class="label" x="180.0" y="218" text-anchor="middle">1</text>
+<text class="title" x="65" y="32">概率密度 f(x)=1 (0&lt;x&lt;1)</text>
+<line x1="345" y1="200" x2="513.0" y2="200" class="axis" marker-end="url(#axArrow)"/>
+<line x1="385" y1="220" x2="385" y2="74.72000000000001" class="axis" marker-end="url(#axArrow)"/>
+<text class="label" x="517.0" y="204">x</text>
+<line x1="380" y1="92.0" x2="390" y2="92.0" class="tick"/>
+<text class="note" x="377" y="96.0" text-anchor="end">1</text>
+<path d="M 353.0,200.0 L 385.0,200.0 L 465.0,92.0 L 513.0,92.0" class="curve"/>
+<circle cx="385.0" cy="200.0" r="3" class="pt"/>
+<circle cx="465.0" cy="92.0" r="3" class="pt"/>
+<line x1="465.0" y1="195" x2="465.0" y2="205" class="tick"/>
+<text class="label" x="465.0" y="218" text-anchor="middle">1</text>
+<text class="note" x="472.0" y="85.0">F(1)=1</text>
+<text class="title" x="365" y="32">分布函数 F(x)（均匀分布）</text>
+</svg>
