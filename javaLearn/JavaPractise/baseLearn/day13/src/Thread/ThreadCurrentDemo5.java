@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadCurrentDemo5 {
     /*
     static Thread currentThread()获取当前线程的对象

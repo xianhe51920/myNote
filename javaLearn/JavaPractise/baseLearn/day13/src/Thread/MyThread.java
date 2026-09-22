@@ -1,3 +1,5 @@
+package Thread;
+
 class MyThread extends Thread {
     public MyThread() {
         super();

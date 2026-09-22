@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadNameDemo4 {
     /*
     Thread相关方法

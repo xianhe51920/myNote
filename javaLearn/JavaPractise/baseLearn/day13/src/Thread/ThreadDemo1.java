@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadDemo1 {
     /*
         Java程序默认是多线程的，

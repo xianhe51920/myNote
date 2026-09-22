@@ -1,3 +1,5 @@
+package Thread;
+
 class MyRunnable implements Runnable {
     @Override
     public void run() {

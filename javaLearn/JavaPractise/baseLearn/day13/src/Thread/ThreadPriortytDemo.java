@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadPriortytDemo {
     /*
     线程调度分为抢占式和非抢占式调度，java是前者

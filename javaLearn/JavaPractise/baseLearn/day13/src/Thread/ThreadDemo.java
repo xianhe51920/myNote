@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadDemo {
     /*
         开启线程的第一种方式－继承Thread类

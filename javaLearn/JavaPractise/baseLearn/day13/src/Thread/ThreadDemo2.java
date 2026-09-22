@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadDemo2 {
     /*
     开启线程第二种方式－实现RunnabLe接口

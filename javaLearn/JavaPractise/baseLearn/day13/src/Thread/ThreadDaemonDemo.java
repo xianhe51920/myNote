@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadDaemonDemo {
     // final void setDaemon(boolean on)设置为守护线程
     public static void main(String[] args) {

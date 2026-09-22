@@ -1,3 +1,5 @@
+package Thread;
+
 public class ThreadSleepDemo {
     /*
     休眠线程的方法
