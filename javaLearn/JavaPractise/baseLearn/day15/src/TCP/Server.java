@@ -9,10 +9,8 @@ import java.net.Socket;
 
 public class Server {
     public static void main(String[] args) throws IOException {
-        // 1.创建SeverSocket对象
         ServerSocket server = new ServerSocket(8888);
         System.out.println("服务端开启，等待客户端连接");
-        // 2.相应客户端发送的请求
         Socket socket = server.accept();
         System.out.println("响应成功");
         // 3.服务端通过socket获取传输数据的输入输出流
