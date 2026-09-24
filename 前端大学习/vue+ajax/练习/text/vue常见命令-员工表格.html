@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tlias智能学习辅助系统</title>
+    <style>
+        /* 导航栏样式 */
+        .navbar {
+            background-color: #b5b3b3;
+            /* 灰色背景 */
+
+            display: flex;
+            /* flex弹性布局 */
+            justify-content: space-between;
+            /* 左右对齐 */
+
+            padding: 10px;
+            /* 内边距 */
+            align-items: center;
+            /* 垂直居中 */
+        }
+
+        .navbar h1 {
+            margin: 0;
+            /* 移除默认的上下外边距 */
+            font-weight: bold;
+            /* 加粗 */
+            color: white;
+            /* 设置字体为楷体 */
+            font-family: "楷体";
+        }
+
+        .navbar a {
+            color: white;
+            /* 链接颜色为白色 */
+            text-decoration: none;
+            /* 移除下划线 */
+        }
+
+        /* 搜索表单样式 */
+        .search-form {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 10px;
+            /* 控件之间的间距 */
+            margin: 20px 0;
+        }
+
+        .search-form input[type="text"],
+        .search-form select {
+            padding: 5px;
+            /* 输入框内边距 */
+            width: 260px;
+            /* 宽度 */
+        }
+
+        .search-form button {
+            padding: 5px 15px;
+            /* 按钮内边距 */
+        }
+
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            /* 边框 */
+            padding: 8px;
+            /* 单元格内边距 */
+            text-align: center;
+            /* 左对齐 */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* 页脚样式 */
+        .footer {
+            background-color: #b5b3b3;
+            /* 灰色背景 */
+            color: white;
+            /* 白色文字 */
+            text-align: center;
+            /* 居中文本 */
+            padding: 10px 0;
+            /* 上下内边距 */
+            margin-top: 30px;
+        }
+
+        #container {
+            width: 80%;
+            /* 宽度为80% */
+            margin: 0 auto;
+            /* 水平居中 */
+        }
+
+        img{
+            display: block;
+            margin: 0 auto;
+            /* // 将图片宽高设置为30px，并且采用cover模式 */
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <!-- 顶部导航栏 -->
+        <div class="navbar">
+            <h1>Tlias智能学习辅助系统</h1>
+            <a href="#">退出登录</a>
+        </div>
+
+        <!-- 搜索表单区域 -->
+         
+        <form class="search-form">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name"  v-model="searchForm.name" placeholder="请输入姓名">
+            <label for="gender" v-model="searchForm.gender">性别：</label>
+            <select id="gender" name="gender" v-model="searchForm.gender">
+                <option value=""></option>
+                <option value="1">男</option>
+                <option value="2">女</option>
+            </select>
+
+            <label for="position" v-model="searchForm.job">职位：</label>
+            <select id="position" name="position" v-model="searchForm.job">
+                <option value=""></option>
+                <option value="1">班主任</option>
+                <option value="2">讲师</option>
+                <option value="3">学工主管</option>
+                <option value="4">教研主管</option>
+                <option value="5">咨询师</option>
+            </select>
+
+            <button type="button" v-on:click="search">查询</button>
+            <button type="button" v-on:click="clear">清空</button>
+        </form>
+
+
+        <!-- 表格展示区 -->
+        <table>
+            <!-- 表头 -->
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>头像</th>
+                    <th>职位</th>
+                    <th>入职日期</th>
+                    <th>最后操作时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+
+            <!-- 表格主体内容 -->
+            <tbody>
+                <tr v-for="(item, index) in empList" :key="index">
+                    <td>{{index + 1}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.gender == 1 ? "男" : "女"}}</td>
+                    <td>
+                        <!-- 插值表达式是不能出现在标签内部 -->
+                         <!-- 使用v-bind动态为html标签绑定属性值 -->
+                        <img v-bind:src="item.image" :alt="item.name">
+                    </td>
+                    <td>
+                        <span v-if="item.job == 1">班主任</span>
+                        <span v-else-if="item.job == 2">讲师</span>
+                        <span v-else-if="item.job == 3">学工主管</span>
+                        <span v-else-if="item.job == 4">教研主管</span>
+                        <span v-else-if="item.job == 5">咨询师</span>
+                    </td>
+                    <td>{{item.entrydate}}</td>
+                    <td>{{item.updatetime}}</td>
+                    <td>
+                        <button type="button">编辑</button>
+                        <button type="button">删除</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 页脚版权区域 -->
+        <footer class="footer">
+            <p>江苏传智播客教育科技股份有限公司</p>
+            <p>版权所有 Copyright 2006-2024 All Rights Reserved</p>
+        </footer>
+    </div>
+
+
+    <script type="module">
+        import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+        createApp({
+            data() {
+                return {
+                    searchForm: {
+                        name: '',
+                        gender: '',
+                        job: ''
+                    },
+                    empList: [
+                        {
+                            "id": 1,
+                            "name": "谢逊",
+                            "image": "../../img/1.jpg",
+                            "gender": 1,
+                            "job": "1",
+                            "entrydate": "2023-06-09",
+                            "updatetime": "2024-09-30T14:59:38"
+                        },
+                        {
+                            "id": 2,
+                            "name": "韦一笑",
+                            "image": "../../img/2.jpg",
+                            "gender": 1,
+                            "job": "1",
+                            "entrydate": "2020-05-09",
+                            "updatetime": "2024-09-01T00:00:00"
+                        },
+                        {
+                            "id": 3,
+                            "name": "黛绮丝",
+                            "image": "../../img/3.jpg",
+                            "gender": 2,
+                            "job": "2",
+                            "entrydate": "2021-06-01",
+                            "updatetime": "2024-09-01T00:00:00"
+                        }
+                    ]
+                }
+            },
+            //方法
+            methods: {
+                search() {
+                    //将搜索条件, 输出到控制台
+                    console.log(this.searchForm);
+                },
+
+                clear() {
+                    //清空表单项数据
+                    this.searchForm = { name: '', gender: '', job: '' }
+                }
+            }
+
+        }).mount('#container')
+    </script>
+
+</body>
+
+</html>
