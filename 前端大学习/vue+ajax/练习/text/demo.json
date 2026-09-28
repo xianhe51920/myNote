@@ -1,0 +1,43 @@
+{
+    "code": 1,
+    "msg": "success",
+    "data": [
+        {
+            "id": 1,
+            "name": "谢逊",
+            "image": "https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/4.jpg",
+            "gender": 1,
+            "job": "1",
+            "entrydate": "2023-06-09",
+            "updatetime": "2026-08-09T18:46:42"
+        },
+        {
+            "id": 2,
+            "name": "韦一笑",
+            "image": "https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg",
+            "gender": 1,
+            "job": "1",
+            "entrydate": "2020-05-09",
+            "updatetime": "2026-07-03T22:42:44"
+        },
+        {
+            "id": 3,
+            "name": "黛绮丝",
+            "image": "https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/2.jpg",
+            "gender": 2,
+            "job": "2",
+            "entrydate": "2021-06-01",
+            "updatetime": "2023-07-01T00:00:00"
+        },
+        {
+            "id": 4,
+            "name": "殷天正",
+            "image": "https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/3.jpg",
+            "gender": 1,
+            "job": "3",
+            "entrydate": "2022-11-06",
+            "updatetime": "2023-07-01T00:00:00"
+        }
+    ],
+    "tip": "本站点所有接口仅用于教学演示，所有数据均非真实数据，请勿用作其它用途!"
+}
