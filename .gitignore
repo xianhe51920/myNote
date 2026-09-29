@@ -192,3 +192,11 @@ javaLearn/APIdoc/jdk-11中文api修订版.chw
 *.patch
 *.mjs
 *.moved
+
+# ==================== 含明文凭据的交接文档（严禁推送） ====================
+# 这些文档内有服务器密码 / API Key / QQ 密码，一旦提交并推送即泄露
+**/*交接*.md
+**/*凭据*.md
+**/*密钥*.md
+**/*secrets*.md
+**/*credentials*.md

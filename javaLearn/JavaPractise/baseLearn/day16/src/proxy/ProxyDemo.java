@@ -40,7 +40,5 @@ public class ProxyDemo {
         newList.add("crane");
         newList.clear();
         System.out.println(list);
-
-
     }
 }
