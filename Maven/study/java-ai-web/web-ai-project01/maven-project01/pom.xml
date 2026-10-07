@@ -19,7 +19,7 @@
 <!--            配置资源坐标-->
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>6.1.4</version>
+            <version>6.2.7</version>
             <scope>compile</scope>
 <!--            排除依赖-->
             <exclusions>
