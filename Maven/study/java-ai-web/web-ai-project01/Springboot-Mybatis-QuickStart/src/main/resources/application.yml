@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Springboot-Mybatis-QuickStart
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/jdbc_web01
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: jh666666
+
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
