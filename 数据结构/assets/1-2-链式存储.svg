@@ -1,60 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" font-family="sans-serif" font-size="13">
-  <style>
-    .hd { font-size: 13px; fill: #7A3448; text-anchor: middle; }
-    .data { fill: #FFF6F8; stroke: #E9A8BC; stroke-width: 1.2; }
-    .ptr { fill: #FFFFFF; stroke: #E9A8BC; stroke-width: 1.2; }
-    .head { fill: #F8BBD0; stroke: #E9A8BC; stroke-width: 1.2; }
-    .hnode { fill: #D66E8E; stroke: #A94A6B; stroke-width: 1; }
-    .link { stroke: #D66E8E; stroke-width: 1.6; fill: none; marker-end: url(#arr); }
-  </style>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">链式存储：逻辑相邻与物理地址</title>
+  <desc id="desc">各结点的地址仅为示意；箭头表示 next 中保存的地址。</desc>
   <defs>
-    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#D66E8E"/></marker>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
   </defs>
-
-  <!-- head pointer -->
-  <rect x="30" y="12" width="70" height="28" class="head"/>
-  <text class="hd" x="65" y="30">h = 1345</text>
-  <line x1="65" y1="40" x2="95" y2="62" stroke="#D66E8E" stroke-width="1.4" marker-end="url(#arr)"/>
-
-  <!-- node chain -->
-  <!-- node1 -->
-  <rect x="100" y="62" width="60" height="36" class="data"/><text x="130" y="84" text-anchor="middle">元素₁</text>
-  <rect x="160" y="62" width="34" height="36" class="ptr"/><text x="177" y="84" text-anchor="middle">1400</text>
-  <line x1="194" y1="80" x2="230" y2="80" class="link"/>
-  <!-- node2 -->
-  <rect x="230" y="62" width="60" height="36" class="data"/><text x="260" y="84" text-anchor="middle">元素₂</text>
-  <rect x="290" y="62" width="34" height="36" class="ptr"/><text x="307" y="84" text-anchor="middle">1536</text>
-  <line x1="324" y1="80" x2="360" y2="80" class="link"/>
-  <!-- node3 -->
-  <rect x="360" y="62" width="60" height="36" class="data"/><text x="390" y="84" text-anchor="middle">元素₃</text>
-  <rect x="420" y="62" width="34" height="36" class="ptr"/><text x="437" y="84" text-anchor="middle">1346</text>
-  <line x1="454" y1="80" x2="490" y2="80" class="link"/>
-  <!-- node4 -->
-  <rect x="490" y="62" width="60" height="36" class="data"/><text x="520" y="84" text-anchor="middle">元素₄</text>
-  <rect x="550" y="62" width="34" height="36" class="ptr"/><text x="567" y="84" text-anchor="middle">Λ</text>
-
-  <!-- table -->
-  <rect x="30" y="130" width="200" height="30" class="head"/><text class="hd" x="130" y="150">存储地址</text>
-  <rect x="235" y="130" width="200" height="30" class="head"/><text class="hd" x="335" y="150">存储内容</text>
-  <rect x="440" y="130" width="150" height="30" class="head"/><text class="hd" x="515" y="150">指针</text>
-  <!-- row1 -->
-  <rect x="30" y="165" width="200" height="30" class="data"/><text class="hd" x="130" y="185">1345</text>
-  <rect x="235" y="165" width="200" height="30" class="data"/><text class="hd" x="335" y="185">元素₁</text>
-  <rect x="440" y="165" width="150" height="30" class="data"/><text class="hd" x="515" y="185">1400</text>
-  <!-- row2 -->
-  <rect x="30" y="200" width="200" height="30" class="data"/><text class="hd" x="130" y="220">1346</text>
-  <rect x="235" y="200" width="200" height="30" class="data"/><text class="hd" x="335" y="220">元素₄</text>
-  <rect x="440" y="200" width="150" height="30" class="data"/><text class="hd" x="515" y="220">Λ</text>
-  <!-- row3 -->
-  <rect x="30" y="235" width="200" height="30" class="data"/><text class="hd" x="130" y="255">……</text>
-  <rect x="235" y="235" width="200" height="30" class="data"/><text class="hd" x="335" y="255">……</text>
-  <rect x="440" y="235" width="150" height="30" class="data"/><text class="hd" x="515" y="255">……</text>
-  <!-- row4 -->
-  <rect x="30" y="270" width="200" height="30" class="data"/><text class="hd" x="130" y="290">1400</text>
-  <rect x="235" y="270" width="200" height="30" class="data"/><text class="hd" x="335" y="290">元素₂</text>
-  <rect x="440" y="270" width="150" height="30" class="data"/><text class="hd" x="515" y="290">1536</text>
-  <!-- row5 -->
-  <rect x="30" y="305" width="200" height="30" class="data"/><text class="hd" x="130" y="325">1536</text>
-  <rect x="235" y="305" width="200" height="30" class="data"/><text class="hd" x="335" y="325">元素₃</text>
-  <rect x="440" y="305" width="150" height="30" class="data"/><text class="hd" x="515" y="325">1346</text>
+  <rect x="1" y="1" width="798" height="578" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">链式存储：逻辑相邻与物理地址</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">各结点的地址仅为示意；箭头表示 next 中保存的地址。</text>
+  <text x="38" y="119" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">L</text>
+  <line x1="56" y1="119" x2="84" y2="167" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <text x="155" y="113" font-size="18" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x1000</text>
+  <rect x="90" y="145" width="76" height="52" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <rect x="166" y="145" width="64" height="52" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="128" y="171" font-size="24" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a1</text>
+  <text x="198" y="171" font-size="15" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">next</text>
+  <line x1="230" y1="171" x2="264" y2="171" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <text x="330" y="113" font-size="18" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x2400</text>
+  <rect x="265" y="145" width="76" height="52" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <rect x="341" y="145" width="64" height="52" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="303" y="171" font-size="24" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a2</text>
+  <text x="373" y="171" font-size="15" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">next</text>
+  <line x1="405" y1="171" x2="439" y2="171" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <text x="505" y="113" font-size="18" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x1800</text>
+  <rect x="440" y="145" width="76" height="52" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <rect x="516" y="145" width="64" height="52" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="478" y="171" font-size="24" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a3</text>
+  <text x="548" y="171" font-size="15" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">next</text>
+  <line x1="580" y1="171" x2="614" y2="171" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <text x="680" y="113" font-size="18" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x3000</text>
+  <rect x="615" y="145" width="76" height="52" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <rect x="691" y="145" width="64" height="52" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="653" y="171" font-size="24" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a4</text>
+  <text x="723" y="171" font-size="15" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">NULL</text>
+  <text x="36" y="229" font-size="20" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">逻辑次序：a₁ → a₂ → a₃ → a₄；地址不要求按数值递增。</text>
+  <rect x="45" y="278" width="235" height="42" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="162.5" y="299" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">结点起始地址</text>
+  <rect x="280" y="278" width="235" height="42" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="397.5" y="299" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">data</text>
+  <rect x="515" y="278" width="235" height="42" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="632.5" y="299" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">next</text>
+  <rect x="45" y="320" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="162.5" y="344" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x1000</text>
+  <rect x="280" y="320" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="397.5" y="344" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a1</text>
+  <rect x="515" y="320" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="632.5" y="344" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x2400</text>
+  <rect x="45" y="368" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="162.5" y="392" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x1800</text>
+  <rect x="280" y="368" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="397.5" y="392" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a3</text>
+  <rect x="515" y="368" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="632.5" y="392" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x3000</text>
+  <rect x="45" y="416" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="162.5" y="440" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x2400</text>
+  <rect x="280" y="416" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="397.5" y="440" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a2</text>
+  <rect x="515" y="416" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="632.5" y="440" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x1800</text>
+  <rect x="45" y="464" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="162.5" y="488" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0x3000</text>
+  <rect x="280" y="464" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="397.5" y="488" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a4</text>
+  <rect x="515" y="464" width="235" height="48" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="632.5" y="488" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">NULL</text>
+  <text x="45" y="548" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">表按物理地址排列；next 按逻辑次序连接。</text>
+  <metadata>{"addresses": ["0x1000", "0x2400", "0x1800", "0x3000"], "next": ["0x2400", "0x1800", "0x3000", null]}</metadata>
 </svg>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">树转二叉树：左孩子、右兄弟</title>
+  <desc id="desc">同一组 A~G 结点；转换的是指针含义，结点数保持为 7。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="598" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">树转二叉树：左孩子、右兄弟</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">同一组 A~G 结点；转换的是指针含义，结点数保持为 7。</text>
+  <text x="195" y="123" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">原有序树</text>
+  <text x="595" y="123" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">孩子兄弟二叉树</text>
+  <line x1="194.08798819646836" y1="198.79593757399124" x2="136.90861337733585" y2="259.81177075386125" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="221.68495004039744" y1="206.4434183580979" x2="229.3820566208829" y2="251.59780991167264" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="237.16201180353164" y1="198.79593757399124" x2="294.3413866226641" y2="259.81177075386125" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="101.06007231141315" y1="304.95984222964404" x2="84.21525138039843" y2="353.1912805681601" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="123.93992768858685" y1="304.95984222964404" x2="140.78474861960157" y2="353.1912805681601" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="236.25" y1="307.0" x2="236.25" y2="351.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="42.25" y="358.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="71.25" y="380" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">E</text>
+  <rect x="124.75" y="358.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="153.75" y="380" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">F</text>
+  <rect x="207.25" y="358.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="236.25" y="380" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">G</text>
+  <rect x="289.75" y="258.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="318.75" y="280" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">D</text>
+  <rect x="83.5" y="258.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="112.5" y="280" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">B</text>
+  <rect x="207.25" y="258.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="236.25" y="280" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C</text>
+  <rect x="186.625" y="158.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="215.62" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">A</text>
+  <line x1="572.5" y1="207.0" x2="572.5" y2="236.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="556.5" y="207.5" width="32.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="572.5" y="222.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">左</text>
+  <line x1="551.6057386849402" y1="284.3746786739645" x2="513.6801628237345" y2="329.19015994277885" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="515.25" y="292.5" width="32.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="531.25" y="307.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">左</text>
+  <line x1="593.3942613150598" y1="284.3746786739645" x2="631.3198371762655" y2="329.19015994277885" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="597.75" y="292.5" width="32.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="613.75" y="307.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">右</text>
+  <line x1="490.0" y1="377.0" x2="490.0" y2="406.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="474.0" y="377.5" width="32.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="490.0" y="392.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">右</text>
+  <line x1="638.7024616552818" y1="372.6683942431081" x2="618.4705434573473" y2="410.65246544258764" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="611.5" y="377.5" width="32.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="627.5" y="392.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">左</text>
+  <line x1="671.2975383447182" y1="372.6683942431081" x2="691.5294565426527" y2="410.65246544258764" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="666.5" y="377.5" width="32.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="682.5" y="392.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">右</text>
+  <rect x="461.0" y="413.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="490.0" y="435" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">F</text>
+  <rect x="571.0" y="413.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="600.0" y="435" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">G</text>
+  <rect x="681.0" y="413.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="710.0" y="435" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">D</text>
+  <rect x="461.0" y="328.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="490.0" y="350" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">E</text>
+  <rect x="626.0" y="328.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="655.0" y="350" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C</text>
+  <rect x="543.5" y="243.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="572.5" y="265" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">B</text>
+  <rect x="543.5" y="158.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="572.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">A</text>
+  <text x="35" y="524" font-size="20" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">二叉树中 B 的右孩子 C 是原树中 B 的兄弟；A 没有右兄弟，因此转换后根无右孩</text>
+  <text x="35" y="553" font-size="20" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">子。</text>
+  <metadata>{"tree": {"A": [["", "B"], ["", "C"], ["", "D"]], "B": [["", "E"], ["", "F"]], "C": [["", "G"]]}, "binary": {"A": [["左", "B"]], "B": [["左", "E"], ["右", "C"]], "E": [["右", "F"]], "C": [["左", "G"], ["右", "D"]]}}</metadata>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410" role="img" aria-labelledby="title"><title id="title">相干波：源初相差与传播路程差共同决定干涉</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="900" height="410" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">相干波：源初相差与传播路程差共同决定干涉</text>
+<circle cx="170" cy="155" r="6" fill="#346E9D" stroke="#346E9D" stroke-width="2"/>
+<text x="130" y="133" font-size="22" fill="#243E56">S₁，φ₁</text>
+<circle cx="170" cy="290" r="6" fill="#346E9D" stroke="#346E9D" stroke-width="2"/>
+<text x="130" y="268" font-size="22" fill="#243E56">S₂，φ₂</text>
+<circle cx="710" cy="220" r="6" fill="#346E9D" stroke="#346E9D" stroke-width="2"/>
+<text x="670" y="198" font-size="22" fill="#243E56">P</text>
+<line x1="170.000" y1="155.000" x2="710.000" y2="220.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<line x1="170.000" y1="290.000" x2="710.000" y2="220.000" stroke="#6B9CBE" stroke-width="3" marker-end="url(#axis)"/>
+<text x="440" y="150" font-size="22" fill="#243E56">r₁</text>
+<text x="445" y="285" font-size="22" fill="#243E56">r₂</text>
+<text x="45" y="348" font-size="25" fill="#243E56">Δφ = (φ₂ − φ₁) − 2π(r₂ − r₁)/λ</text>
+<text x="45" y="384" font-size="20" fill="#243E56">增强：Δφ = 2mπ；等振幅完全抵消：Δφ = (2m+1)π。</text>
+</g></svg>

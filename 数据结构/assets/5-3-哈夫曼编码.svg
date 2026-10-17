@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">哈夫曼编码：字符在叶结点上</title>
+  <desc id="desc">频次 C=80、A=10、B=8、D=2；左边编码 0，右边编码 1。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="538" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">哈夫曼编码：字符在叶结点上</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">频次 C=80、A=10、B=8、D=2；左边编码 0，右边编码 1。</text>
+  <line x1="261.45270573626624" y1="153.39575133563451" x2="159.5202668322316" y2="215.6119707876518" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="196.25" y="170.0" width="25.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="208.75" y="185.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <line x1="313.54729426373376" y1="153.39575133563451" x2="415.47973316776836" y2="215.6119707876518" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="353.75" y="170.0" width="25.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="366.25" y="185.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <line x1="420.0384911698647" y1="244.9769052980812" x2="338.2897100074867" y2="303.9136943094684" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="365.0" y="260.0" width="25.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="377.5" y="275.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <line x1="469.9615088301353" y1="244.9769052980812" x2="551.7102899925134" y2="303.9136943094684" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="500.0" y="260.0" width="25.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="512.5" y="275.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <line x1="558.7867965644036" y1="339.09188309203677" x2="514.0416305603426" y2="389.4939033455901" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="522.5" y="350.0" width="25.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="535.0" y="365.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <line x1="601.2132034355964" y1="339.09188309203677" x2="645.9583694396574" y2="389.4939033455901" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="612.5" y="350.0" width="25.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="625.0" y="365.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="91.0" y="208.0" width="78" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="130.0" y="230" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C:80</text>
+  <rect x="271.0" y="298.0" width="78" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="310.0" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">A:10</text>
+  <rect x="451.0" y="388.0" width="78" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="490.0" y="410" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">D:2</text>
+  <rect x="631.0" y="388.0" width="78" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="670.0" y="410" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">B:8</text>
+  <rect x="541.0" y="298.0" width="78" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="580.0" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">10</text>
+  <rect x="406.0" y="208.0" width="78" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="445.0" y="230" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">20</text>
+  <rect x="248.5" y="118.0" width="78" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="287.5" y="140" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">100</text>
+  <text x="400" y="460" font-size="23" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C=0；A=10；D=110；B=111</text>
+  <text x="400" y="505" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">WPL = 80×1 + 10×2 + 2×3 + 8×3 = 130 bit</text>
+  <metadata>{"children": {"100": [["0", "C"], ["1", "20"]], "20": [["0", "A"], ["1", "10"]], "10": [["0", "D"], ["1", "B"]]}, "frequencies": {"C": 80, "A": 10, "D": 2, "B": 8}, "codes": {"C": "0", "A": "10", "D": "110", "B": "111"}, "WPL": 130}</metadata>
+</svg>

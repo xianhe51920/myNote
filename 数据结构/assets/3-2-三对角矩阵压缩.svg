@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 570" width="800" height="570" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">三对角矩阵：矩阵位置与数组下标</title>
+  <desc id="desc">矩阵行、列从 1 开始；一维数组 B 从 0 开始。仅存 |i−j|≤1 的带状区域。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="568" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">三对角矩阵：矩阵位置与数组下标</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">矩阵行、列从 1 开始；一维数组 B 从 0 开始。仅存 |i−j|≤1 的带状区域。</text>
+  <text x="170" y="118" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="232" y="118" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <text x="294" y="118" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <text x="356" y="118" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <text x="418" y="118" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <text x="120" y="158" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="140" y="132" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="171" y="160" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=0</text>
+  <rect x="202" y="132" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="233" y="160" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=1</text>
+  <rect x="264" y="132" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="295" y="160" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="326" y="132" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="357" y="160" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="388" y="132" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="419" y="160" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="120" y="214" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="140" y="188" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="171" y="216" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=2</text>
+  <rect x="202" y="188" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="233" y="216" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=3</text>
+  <rect x="264" y="188" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="295" y="216" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=4</text>
+  <rect x="326" y="188" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="357" y="216" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="388" y="188" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="419" y="216" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="120" y="270" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="140" y="244" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="171" y="272" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="202" y="244" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="233" y="272" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=5</text>
+  <rect x="264" y="244" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="295" y="272" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=6</text>
+  <rect x="326" y="244" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="357" y="272" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=7</text>
+  <rect x="388" y="244" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="419" y="272" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="120" y="326" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="140" y="300" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="171" y="328" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="202" y="300" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="233" y="328" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="264" y="300" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="295" y="328" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=8</text>
+  <rect x="326" y="300" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="357" y="328" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=9</text>
+  <rect x="388" y="300" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="419" y="328" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=10</text>
+  <text x="120" y="382" font-size="17" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="140" y="356" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="171" y="384" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="202" y="356" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="233" y="384" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="264" y="356" width="62" height="56" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="295" y="384" font-size="20" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="326" y="356" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="357" y="384" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=11</text>
+  <rect x="388" y="356" width="62" height="56" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="419" y="384" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">k=12</text>
+  <text x="510" y="155" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">n = 5</text>
+  <text x="510" y="183" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">带内共 3n−2 = 13 格</text>
+  <text x="510" y="211" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">正向：k = 2i+j−3</text>
+  <text x="510" y="239" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">反向：i = ceil((k+2)/3)</text>
+  <text x="510" y="267" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">再求：j = k−2i+3</text>
+  <text x="42" y="438" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">压缩数组 B：</text>
+  <rect x="42" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="69.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₁₁</text>
+  <text x="69.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="97" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="124.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₁₂</text>
+  <text x="124.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="152" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="179.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₂₁</text>
+  <text x="179.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="207" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="234.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₂₂</text>
+  <text x="234.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="262" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="289.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₂₃</text>
+  <text x="289.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="317" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="344.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₃₂</text>
+  <text x="344.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="372" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="399.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₃₃</text>
+  <text x="399.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <rect x="427" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="454.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₃₄</text>
+  <text x="454.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">7</text>
+  <rect x="482" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="509.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₄₃</text>
+  <text x="509.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">8</text>
+  <rect x="537" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="564.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₄₄</text>
+  <text x="564.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">9</text>
+  <rect x="592" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="619.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₄₅</text>
+  <text x="619.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">10</text>
+  <rect x="647" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="674.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₅₄</text>
+  <text x="674.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">11</text>
+  <rect x="702" y="476" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="729.5" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a₅₅</text>
+  <text x="729.5" y="460" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">12</text>
+  <text x="42" y="543" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">例：(i,j)=(4,3) → k=8；B[8] 存 a₄₃，而不是存数值 8。</text>
+  <metadata>{"n": 5, "mapping": [[1, 1, 0], [1, 2, 1], [2, 1, 2], [2, 2, 3], [2, 3, 4], [3, 2, 5], [3, 3, 6], [3, 4, 7], [4, 3, 8], [4, 4, 9], [4, 5, 10], [5, 4, 11], [5, 5, 12]]}</metadata>
+</svg>

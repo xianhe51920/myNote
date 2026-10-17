@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="480" viewBox="0 0 950 480" role="img" aria-labelledby="title"><title id="title">空气劈尖：反射暗纹对应相同厚度</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="950" height="480" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">空气劈尖：反射暗纹对应相同厚度</text>
+<line x1="100.000" y1="300.000" x2="820.000" y2="300.000" stroke="#526D83" stroke-width="4"/>
+<line x1="100.000" y1="300.000" x2="820.000" y2="150.000" stroke="#346E9D" stroke-width="4"/>
+<line x1="190.000" y1="300.000" x2="190.000" y2="281.250" stroke="#6B9CBE" stroke-width="2"/>
+<text x="190" y="334" font-size="18" fill="#243E56" text-anchor="middle">1</text>
+<line x1="280.000" y1="300.000" x2="280.000" y2="262.500" stroke="#6B9CBE" stroke-width="2"/>
+<text x="280" y="334" font-size="18" fill="#243E56" text-anchor="middle">2</text>
+<line x1="370.000" y1="300.000" x2="370.000" y2="243.750" stroke="#6B9CBE" stroke-width="2"/>
+<text x="370" y="334" font-size="18" fill="#243E56" text-anchor="middle">3</text>
+<line x1="460.000" y1="300.000" x2="460.000" y2="225.000" stroke="#6B9CBE" stroke-width="2"/>
+<text x="460" y="334" font-size="18" fill="#243E56" text-anchor="middle">4</text>
+<line x1="550.000" y1="300.000" x2="550.000" y2="206.250" stroke="#6B9CBE" stroke-width="2"/>
+<text x="550" y="334" font-size="18" fill="#243E56" text-anchor="middle">5</text>
+<line x1="640.000" y1="300.000" x2="640.000" y2="187.500" stroke="#6B9CBE" stroke-width="2"/>
+<text x="640" y="334" font-size="18" fill="#243E56" text-anchor="middle">6</text>
+<line x1="730.000" y1="300.000" x2="730.000" y2="168.750" stroke="#6B9CBE" stroke-width="2"/>
+<text x="730" y="334" font-size="18" fill="#243E56" text-anchor="middle">7</text>
+<text x="125" y="281" font-size="22" fill="#243E56">θ</text>
+<text x="835" y="231" font-size="22" fill="#243E56">e</text>
+<text x="92" y="340" font-size="19" fill="#243E56">0</text>
+<text x="45" y="95" font-size="19" fill="#5E7488">两玻璃板之间为空气；图中竖线表示等厚暗纹位置的侧视投影。</text>
+<text x="40" y="388" font-size="24" fill="#243E56">e ≈ xθ；暗纹 eₘ = mλ/2（m = 0, 1, 2, …）。</text>
+<text x="40" y="431" font-size="23" fill="#243E56">相邻条纹 Δx = λ/(2θ)；θ 增大，条纹变密。</text>
+<text x="40" y="465" font-size="19" fill="#5E7488">接触边 e = 0 为暗纹；填充介质时分母增加折射率 n。</text>
+</g></svg>

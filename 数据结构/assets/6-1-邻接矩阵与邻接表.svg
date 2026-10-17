@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" width="800" height="650" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">同一张无向图：矩阵与邻接表</title>
+  <desc id="desc">V={A,B,C,D,E,F}；E={AB,AC,AD,BE,BF,CE,DF}，共 6 个顶点、7 条边。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="648" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">同一张无向图：矩阵与邻接表</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">V={A,B,C,D,E,F}；E={AB,AC,AD,BE,BF,CE,DF}，共 6 个顶点、7 条边。</text>
+  <text x="215" y="122" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">邻接矩阵</text>
+  <text x="610" y="122" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">邻接表</text>
+  <text x="112" y="166" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">A</text>
+  <text x="156" y="166" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">B</text>
+  <text x="200" y="166" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C</text>
+  <text x="244" y="166" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">D</text>
+  <text x="288" y="166" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">E</text>
+  <text x="332" y="166" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">F</text>
+  <text x="62" y="207" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">A</text>
+  <rect x="90" y="184" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="112" y="208" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="134" y="184" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="156" y="208" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="178" y="184" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="200" y="208" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="222" y="184" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="244" y="208" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="266" y="184" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="288" y="208" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="310" y="184" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="332" y="208" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="455" y="208" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">A</text>
+  <text x="500" y="208" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">B → C → D → ∅</text>
+  <text x="62" y="255" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">B</text>
+  <rect x="90" y="232" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="112" y="256" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="134" y="232" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="156" y="256" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="178" y="232" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="200" y="256" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="222" y="232" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="244" y="256" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="266" y="232" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="288" y="256" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="310" y="232" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="332" y="256" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="455" y="256" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">B</text>
+  <text x="500" y="256" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">A → E → F → ∅</text>
+  <text x="62" y="303" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C</text>
+  <rect x="90" y="280" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="112" y="304" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="134" y="280" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="156" y="304" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="178" y="280" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="200" y="304" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="222" y="280" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="244" y="304" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="266" y="280" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="288" y="304" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="310" y="280" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="332" y="304" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="455" y="304" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C</text>
+  <text x="500" y="304" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">A → E → ∅</text>
+  <text x="62" y="351" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">D</text>
+  <rect x="90" y="328" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="112" y="352" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="134" y="328" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="156" y="352" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="178" y="328" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="200" y="352" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="222" y="328" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="244" y="352" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="266" y="328" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="288" y="352" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="310" y="328" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="332" y="352" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="455" y="352" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">D</text>
+  <text x="500" y="352" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">A → F → ∅</text>
+  <text x="62" y="399" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">E</text>
+  <rect x="90" y="376" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="112" y="400" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="134" y="376" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="156" y="400" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="178" y="376" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="200" y="400" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="222" y="376" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="244" y="400" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="266" y="376" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="288" y="400" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="310" y="376" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="332" y="400" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="455" y="400" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">E</text>
+  <text x="500" y="400" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">B → C → ∅</text>
+  <text x="62" y="447" font-size="19" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">F</text>
+  <rect x="90" y="424" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="112" y="448" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="134" y="424" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="156" y="448" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="178" y="424" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="200" y="448" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="222" y="424" width="44" height="48" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="244" y="448" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="266" y="424" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="288" y="448" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="310" y="424" width="44" height="48" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="332" y="448" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="455" y="448" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">F</text>
+  <text x="500" y="448" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">B → D → ∅</text>
+  <text x="35" y="522" font-size="21" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">矩阵对称；C 只与 A、E 相邻，C 与 F 无边。邻接表共有 14 个边结点，每条无</text>
+  <text x="35" y="552" font-size="21" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">向边出现两次。</text>
+  <text x="400" y="615" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">度数：3、3、2、2、2、2；总度数 14 = 2|E|</text>
+  <metadata>{"edges": [[0, 1], [0, 2], [0, 3], [1, 4], [1, 5], [2, 4], [3, 5]], "adjacency": [[1, 2, 3], [0, 4, 5], [0, 4], [0, 5], [1, 2], [1, 3]], "degree": [3, 3, 2, 2, 2, 2]}</metadata>
+</svg>

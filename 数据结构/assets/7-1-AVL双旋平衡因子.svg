@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">AVL 的 LR 双旋：不能把平衡因子写反</title>
+  <desc id="desc">示例：A=30，B=10，C=20；C 的左子树增高，对应 bf(C)=+1。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="618" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">AVL 的 LR 双旋：不能把平衡因子写反</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">示例：A=30，B=10，C=20；C 的左子树增高，对应 bf(C)=+1。</text>
+  <text x="205" y="118" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">调整前</text>
+  <text x="595" y="118" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">左旋 B，再右旋 A</text>
+  <line x1="209.36117571748292" y1="199.23277680731414" x2="170.52955640907496" y2="244.34257305881073" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="177.04166666666669" y="207.5" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="188.54" y="222.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="251.47215761585045" y1="199.23277680731414" x2="290.3037769242584" y2="244.34257305881073" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="259.2916666666667" y="207.5" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="272.29" y="222.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="130.1962357165508" y1="287.5669486749349" x2="109.49982174346468" y2="325.7614254972921" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="107.25000000000001" y="292.5" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="118.75" y="307.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="163.13709761678257" y1="287.5669486749349" x2="183.83351158986866" y2="325.7614254972921" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="161.58333333333334" y="292.5" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="174.58" y="307.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="202.5" y1="377.0" x2="202.5" y2="406.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="191.0" y="377.5" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="202.5" y="392.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <rect x="61.83333333333334" y="328.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="90.83" y="350" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">5</text>
+  <rect x="173.5" y="413.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="202.5" y="435" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">15</text>
+  <rect x="285.1666666666667" y="243.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="314.17" y="265" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">40</text>
+  <rect x="173.5" y="328.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="202.5" y="350" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">20</text>
+  <rect x="117.66666666666669" y="243.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="146.67" y="265" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">10</text>
+  <rect x="201.41666666666669" y="158.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="230.42" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">30</text>
+  <line x1="604.361175717483" y1="199.2327768073141" x2="565.5295564090749" y2="244.34257305881076" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="572.0416666666667" y="207.5" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="583.54" y="222.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="646.4721576158505" y1="199.23277680731414" x2="685.3037769242585" y2="244.34257305881073" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="654.2916666666667" y="207.5" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="667.29" y="222.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="525.1962357165507" y1="287.5669486749349" x2="504.4998217434646" y2="325.7614254972921" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="502.25" y="292.5" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="513.75" y="307.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="558.1370976167825" y1="287.5669486749349" x2="578.8335115898686" y2="325.7614254972921" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="556.5833333333333" y="292.5" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="569.58" y="307.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="709.1666666666667" y1="292.0" x2="709.1666666666667" y2="321.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="696.1666666666667" y="292.5" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="709.17" y="307.5" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <rect x="456.8333333333333" y="328.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="485.83" y="350" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">5</text>
+  <rect x="568.5" y="328.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="597.5" y="350" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">15</text>
+  <rect x="680.1666666666667" y="328.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="709.17" y="350" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">40</text>
+  <rect x="512.6666666666666" y="243.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="541.67" y="265" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">10</text>
+  <rect x="680.1666666666667" y="243.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="709.17" y="265" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">30</text>
+  <rect x="596.4166666666667" y="158.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="625.42" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">20</text>
+  <text x="400" y="498" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">C 左侧增高 → 双旋后：bf(B)=0，bf(A)=−1，bf(C)=0</text>
+  <text x="400" y="548" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">C 右侧增高 → 双旋后：bf(B)=+1，bf(A)=0，bf(C)=0</text>
+  <text x="400" y="588" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">前提：bf = 左子树高度 − 右子树高度。</text>
+  <metadata>{"before": {"30": [["L", "10"], ["R", "40"]], "10": [["L", "5"], ["R", "20"]], "20": [["L", "15"]]}, "after": {"20": [["L", "10"], ["R", "30"]], "10": [["L", "5"], ["R", "15"]], "30": [["R", "40"]]}, "CL_case": {"B": 0, "A": -1, "C": 0}, "CR_case": {"B": 1, "A": 0, "C": 0}}</metadata>
+</svg>

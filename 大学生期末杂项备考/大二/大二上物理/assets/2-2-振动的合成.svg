@@ -1,26 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" font-family="sans-serif" font-size="13">
-  <style>
-    .label { font-size: 13px; fill: #222; }
-    .axis { stroke: #333; stroke-width: 1.2; fill: none; }
-    .circ { fill: none; stroke: #333; stroke-width: 1; }
-    .v1 { stroke: #2c3e50; stroke-width: 2.2; fill: none; marker-end: url(#a1); }
-    .v2 { stroke: #c0392b; stroke-width: 2.4; fill: none; marker-end: url(#a2); }
-    .note { font-size: 13px; fill: #c0392b; }
-  </style>
-  <defs>
-    <marker id="ax" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto"><polygon points="0 0, 11 5.5, 0 11" fill="#333"/></marker>
-    <marker id="a1" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#2c3e50"/></marker>
-    <marker id="a2" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><polygon points="0 0, 11 5.5, 0 11" fill="#c0392b"/></marker>
-  </defs>
-  <line x1="75" y1="220" x2="400" y2="220" class="axis" marker-end="url(#ax)"/>
-  <line x1="220" y1="412" x2="220" y2="50" class="axis" marker-end="url(#ax)"/>
-  <text class="label" x="406" y="224">x</text>
-  <text class="label" x="228" y="58">y</text>
-  <circle cx="220" cy="220" r="130" class="circ"/>
-  <line x1="220" y1="220" x2="259" y2="152" class="v1"/>
-  <text class="label" x="300" y="88" text-anchor="start">A₁ = 0.03</text>
-  <text class="label" x="300" y="108" text-anchor="start">φ = π/3</text>
-  <line x1="220" y1="220" x2="155" y2="333" class="v2"/>
-  <text class="note" x="86" y="376" text-anchor="start">A₂ = 0.05</text>
-  <text class="note" x="86" y="396" text-anchor="start">φ = −2π/3</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="550" viewBox="0 0 700 550" role="img" aria-labelledby="title"><title id="title">同频振动合成：相位差为 π</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="700" height="550" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">同频振动合成：相位差为 π</text>
+<line x1="90.000" y1="275.000" x2="595.000" y2="275.000" stroke="#526D83" stroke-width="1.8" marker-end="url(#axis)"/>
+<line x1="330.000" y1="475.000" x2="330.000" y2="77.000" stroke="#526D83" stroke-width="1.8" marker-end="url(#axis)"/>
+<text x="607" y="282" font-size="22" fill="#243E56">x</text>
+<text x="342" y="88" font-size="22" fill="#243E56">y</text>
+<line x1="330.000" y1="275.000" x2="381.000" y2="186.665" stroke="#6B9CBE" stroke-width="2.2" marker-end="url(#axis)"/>
+<line x1="330.000" y1="275.000" x2="245.000" y2="422.224" stroke="#6B9CBE" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#axis)"/>
+<line x1="330.000" y1="275.000" x2="296.000" y2="333.890" stroke="#346E9D" stroke-width="4" marker-end="url(#main)"/>
+<text x="395" y="176" font-size="22" fill="#243E56">A₁ = 0.03 m</text>
+<text x="395" y="205" font-size="20" fill="#5E7488">φ₁ = π/3</text>
+<text x="96" y="449" font-size="22" fill="#243E56">A₂ = 0.05 m</text>
+<text x="385" y="358" font-size="22" fill="#243E56">合成 A = 0.02 m</text>
+<text x="385" y="388" font-size="21" fill="#243E56">φ = −2π/3</text>
+<text x="30" y="520" font-size="21" fill="#243E56">两矢量反向：合成振幅为差值，方向随较长矢量。</text>
+</g></svg>

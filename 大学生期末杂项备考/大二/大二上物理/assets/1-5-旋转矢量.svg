@@ -1,30 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340" font-family="sans-serif" font-size="12">
-  <style>
-    .label { font-size: 12px; fill: #222; }
-    .axis { stroke: #333; stroke-width: 1.1; fill: none; }
-    .vec { stroke: #c0392b; stroke-width: 2.2; fill: none; marker-end: url(#vecArrow); }
-    .arc { stroke: #c0392b; stroke-width: 1.4; fill: none; marker-end: url(#arcArrow); }
-    .om { stroke: #2c3e50; stroke-width: 1.3; fill: none; marker-end: url(#omArrow); }
-    .note { font-size: 12px; fill: #c0392b; }
-  </style>
-  <defs>
-    <marker id="axArrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#333"/></marker>
-    <marker id="vecArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#c0392b"/></marker>
-    <marker id="arcArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#c0392b"/></marker>
-    <marker id="omArrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><polygon points="0 0, 9 4.5, 0 9" fill="#2c3e50"/></marker>
-  </defs>
-  <line x1="60" y1="170" x2="290" y2="170" class="axis" marker-end="url(#axArrow)"/>
-  <line x1="170" y1="292" x2="170" y2="48" class="axis" marker-end="url(#axArrow)"/>
-  <text class="label" x="297" y="174">x</text>
-  <text class="label" x="178" y="56">y</text>
-  <circle cx="170" cy="170" r="100" fill="none" stroke="#333" stroke-width="1"/>
-  <text class="label" x="58" y="174" text-anchor="middle">-A</text>
-  <text class="label" x="272" y="174" text-anchor="middle">A</text>
-  <path d="M 104.5,124 A 80 80 0 0 1 170,92" class="om"/>
-  <text class="label" x="104" y="84" text-anchor="middle">ω</text>
-  <!-- rotating vector at φ0 = π/2 (points up) -->
-  <line x1="170" y1="170" x2="170" y2="62" class="vec"/>
-  <!-- phase arc from +x axis to vector, counter-clockwise (φ0 = π/2) -->
-  <path d="M 232,170 A 62 62 0 0 0 170,108" class="arc"/>
-  <text class="note" x="228" y="112" text-anchor="middle">φ₀ = π/2</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="500" viewBox="0 0 560 500" role="img" aria-labelledby="title"><title id="title">碰撞结束：位移为零，速度向左</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="560" height="500" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">碰撞结束：位移为零，速度向左</text>
+<line x1="125.000" y1="245.000" x2="425.000" y2="245.000" stroke="#526D83" stroke-width="1.8" marker-end="url(#axis)"/>
+<line x1="270.000" y1="390.000" x2="270.000" y2="95.000" stroke="#526D83" stroke-width="1.8" marker-end="url(#axis)"/>
+<text x="430" y="252" font-size="20" fill="#243E56">x</text>
+<text x="282" y="107" font-size="20" fill="#243E56">y</text>
+<text x="145" y="272" font-size="18" fill="#243E56">−A</text>
+<text x="393" y="272" font-size="18" fill="#243E56">A</text>
+<text x="252" y="268" font-size="17" fill="#243E56">O</text>
+<circle cx="270" cy="245" r="120" fill="none" stroke="#6B9CBE" stroke-width="1.8"/>
+<line x1="270.000" y1="125.000" x2="270.000" y2="245.000" stroke="#6B9CBE" stroke-width="1.8" stroke-dasharray="6 5"/>
+<line x1="270.000" y1="245.000" x2="270.000" y2="125.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<circle cx="270.0" cy="245" r="3.5" fill="#346E9D" stroke="#346E9D" stroke-width="2"/>
+<polyline points="308.000,245.000 307.993,244.254 307.971,243.508 307.934,242.763 307.883,242.019 307.817,241.275 307.737,240.534 307.642,239.794 307.532,239.055 307.408,238.320 307.270,237.587 307.117,236.856 306.950,236.129 306.769,235.405 306.573,234.685 306.364,233.969 306.140,233.257 305.903,232.550 305.651,231.848 305.386,231.150 305.107,230.458 304.815,229.772 304.509,229.091 304.190,228.416 303.858,227.748 303.513,227.087 303.155,226.432 302.784,225.785 302.400,225.145 302.004,224.513 301.596,223.888 301.175,223.272 300.743,222.664 300.298,222.065 299.842,221.474 299.374,220.893 298.895,220.321 298.405,219.758 297.904,219.206 297.392,218.663 296.870,218.130 296.337,217.608 295.794,217.096 295.242,216.595 294.679,216.105 294.107,215.626 293.526,215.158 292.935,214.702 292.336,214.257 291.728,213.825 291.112,213.404 290.487,212.996 289.855,212.600 289.215,212.216 288.568,211.845 287.913,211.487 287.252,211.142 286.584,210.810 285.909,210.491 285.228,210.185 284.542,209.893 283.850,209.614 283.152,209.349 282.450,209.097 281.743,208.860 281.031,208.636 280.315,208.427 279.595,208.231 278.871,208.050 278.144,207.883 277.413,207.730 276.680,207.592 275.945,207.468 275.206,207.358 274.466,207.263 273.725,207.183 272.981,207.117 272.237,207.066 271.492,207.029 270.746,207.007 270.000,207.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<polyline points="368.208,139.685 366.774,138.366 365.323,137.067 363.855,135.788 362.369,134.528 360.866,133.289 359.347,132.070 357.811,130.872 356.259,129.695 354.692,128.538 353.109,127.404 351.511,126.290 349.898,125.199 348.270,124.129 346.628,123.081 344.972,122.056 343.302,121.053 341.619,120.073 339.922,119.116 338.213,118.181 336.492,117.270 334.758,116.383 333.012,115.519 331.255,114.678 329.487,113.862 327.708,113.069 325.918,112.300 324.118,111.556 322.308,110.836 320.489,110.141 318.660,109.471 316.822,108.825 314.976,108.204 313.122,107.608 311.260,107.038 309.390,106.492 307.513,105.972 305.629,105.477 303.738,105.008 301.842,104.565 299.939,104.147 298.031,103.755 296.118,103.388 294.201,103.048 292.278,102.734 290.352,102.445 288.422,102.183 286.489,101.947 284.552,101.737 282.613,101.553 280.672,101.396 278.728,101.265 276.783,101.160 274.837,101.081 272.890,101.029 270.942,101.003 268.995,101.004 267.047,101.030 265.100,101.083 263.154,101.163 261.209,101.269 259.266,101.401 257.324,101.559 255.385,101.744 253.449,101.954 251.516,102.191 249.586,102.454 247.660,102.744 245.738,103.059 243.820,103.400 241.907,103.767 239.999,104.160 238.097,104.578 236.201,105.023 234.310,105.493 232.427,105.988 230.550,106.509 228.680,107.056 226.818,107.627 224.964,108.224 223.118,108.845" fill="none" stroke="#346E9D" stroke-width="2"/>
+<line x1="226.818" y1="107.627" x2="223.118" y2="108.845" stroke="#346E9D" stroke-width="2" marker-end="url(#main)"/>
+<text x="217.2" y="96" font-size="20" fill="#243E56">ω</text>
+<text x="270" y="430" font-size="23" fill="#243E56" text-anchor="middle">φ = π/2，x = 0，v &lt; 0</text>
+</g></svg>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">快速排序：一次划分与递归区间</title>
+  <desc id="desc">首元素作枢轴，挖坑法，数组下标从 0 开始；不是每次都从完整数组重排。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="538" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">快速排序：一次划分与递归区间</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">首元素作枢轴，挖坑法，数组下标从 0 开始；不是每次都从完整数组重排。</text>
+  <text x="35" y="162" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">初始</text>
+  <rect x="210" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="243.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <text x="243.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="277" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="310.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">38</text>
+  <text x="310.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="344" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="377.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">65</text>
+  <text x="377.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="411" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="444.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">97</text>
+  <text x="444.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="478" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="511.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">76</text>
+  <text x="511.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="545" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="578.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">13</text>
+  <text x="578.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="612" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="645.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">27</text>
+  <text x="645.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <rect x="679" y="140" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="712.5" y="162" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <text x="712.5" y="124" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">7</text>
+  <text x="35" y="230" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">划分 [0,7]</text>
+  <rect x="210" y="208" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="243.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">27</text>
+  <rect x="277" y="208" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="310.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">38</text>
+  <rect x="344" y="208" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="377.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">13</text>
+  <rect x="411" y="208" width="67" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="444.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <rect x="478" y="208" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="511.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">76</text>
+  <rect x="545" y="208" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="578.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">97</text>
+  <rect x="612" y="208" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="645.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">65</text>
+  <rect x="679" y="208" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="712.5" y="230" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <text x="35" y="298" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">划分 [0,2]</text>
+  <rect x="210" y="276" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="243.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">13</text>
+  <rect x="277" y="276" width="67" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="310.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">27</text>
+  <rect x="344" y="276" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="377.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">38</text>
+  <rect x="411" y="276" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="444.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <rect x="478" y="276" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="511.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">76</text>
+  <rect x="545" y="276" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="578.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">97</text>
+  <rect x="612" y="276" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="645.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">65</text>
+  <rect x="679" y="276" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="712.5" y="298" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <text x="35" y="366" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">划分 [4,7]</text>
+  <rect x="210" y="344" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="243.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">13</text>
+  <rect x="277" y="344" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="310.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">27</text>
+  <rect x="344" y="344" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="377.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">38</text>
+  <rect x="411" y="344" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="444.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <rect x="478" y="344" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="511.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <rect x="545" y="344" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="578.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">65</text>
+  <rect x="612" y="344" width="67" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="645.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">76</text>
+  <rect x="679" y="344" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="712.5" y="366" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">97</text>
+  <text x="35" y="434" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">划分 [4,5]</text>
+  <rect x="210" y="412" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="243.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">13</text>
+  <rect x="277" y="412" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="310.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">27</text>
+  <rect x="344" y="412" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="377.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">38</text>
+  <rect x="411" y="412" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="444.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <rect x="478" y="412" width="67" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="511.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">49</text>
+  <rect x="545" y="412" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="578.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">65</text>
+  <rect x="612" y="412" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="645.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">76</text>
+  <rect x="679" y="412" width="67" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="712.5" y="434" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">97</text>
+  <text x="35" y="507" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">粉色为本次枢轴位置；[0,2] 中的枢轴 27 落在下标 1，而不是下标 2。</text>
+  <metadata>{"trace": [{"range": "初始", "array": [49, 38, 65, 97, 76, 13, 27, 49], "pivot": null}, {"range": "划分 [0,7]", "array": [27, 38, 13, 49, 76, 97, 65, 49], "pivot": 3}, {"range": "划分 [0,2]", "array": [13, 27, 38, 49, 76, 97, 65, 49], "pivot": 1}, {"range": "划分 [4,7]", "array": [13, 27, 38, 49, 49, 65, 76, 97], "pivot": 6}, {"range": "划分 [4,5]", "array": [13, 27, 38, 49, 49, 65, 76, 97], "pivot": 4}]}</metadata>
+</svg>

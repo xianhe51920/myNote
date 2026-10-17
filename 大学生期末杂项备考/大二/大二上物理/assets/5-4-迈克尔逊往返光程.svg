@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title"><title id="title">迈克尔逊干涉：镜面移动产生双倍光程变化</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="900" height="430" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">迈克尔逊干涉：镜面移动产生双倍光程变化</text>
+<line x1="140.000" y1="260.000" x2="400.000" y2="260.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<line x1="370.000" y1="290.000" x2="430.000" y2="230.000" stroke="#526D83" stroke-width="5"/>
+<line x1="400.000" y1="260.000" x2="400.000" y2="110.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<line x1="407.000" y1="110.000" x2="407.000" y2="250.000" stroke="#6B9CBE" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="400.000" y1="260.000" x2="710.000" y2="260.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<line x1="710.000" y1="270.000" x2="420.000" y2="270.000" stroke="#6B9CBE" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="360.000" y1="95.000" x2="450.000" y2="95.000" stroke="#526D83" stroke-width="5"/>
+<line x1="725.000" y1="220.000" x2="725.000" y2="310.000" stroke="#526D83" stroke-width="5"/>
+<line x1="775.000" y1="220.000" x2="775.000" y2="310.000" stroke="#6B9CBE" stroke-width="3" stroke-dasharray="5 5"/>
+<line x1="727.000" y1="185.000" x2="775.000" y2="185.000" stroke="#346E9D" stroke-width="2" marker-end="url(#main)"/>
+<text x="727" y="155" font-size="22" fill="#243E56">Δd</text>
+<text x="80" y="247" font-size="21" fill="#243E56">光源</text>
+<text x="430" y="310" font-size="20" fill="#243E56">分光板</text>
+<text x="350" y="76" font-size="20" fill="#243E56">固定镜</text>
+<line x1="400.000" y1="275.000" x2="400.000" y2="345.000" stroke="#6B9CBE" stroke-width="2" marker-end="url(#axis)"/>
+<text x="430" y="350" font-size="20" fill="#243E56">观察端</text>
+<text x="40" y="395" font-size="23" fill="#243E56">空气中：Δδ = 2Δd，条纹移动数 N = 2|Δd|/λ。</text>
+</g></svg>

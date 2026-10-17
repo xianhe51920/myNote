@@ -1,102 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 372" font-family="sans-serif" font-size="11">
-  <defs><marker id="tarr" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><polygon points="0 0, 10 5, 0 10" fill="#444"/></marker></defs>
-  <style>
-    .label { font-size: 10px; fill: #222; }
-    .frame-line { stroke: #777; stroke-width: 1; fill: none; }
-    .wall { stroke: #444; stroke-width: 1.5; fill: none; }
-    .spring { stroke: #444; stroke-width: 1.4; fill: none; stroke-linejoin: round; }
-    .block { fill: #f3c623; stroke: #b8881a; stroke-width: 1; }
-    .arrow { fill: #c0392b; }
-    .guide { stroke: #999; stroke-dasharray: 4 3; fill: none; }
-    .k { font-style: italic; font-size: 10px; fill: #222; }
-  </style>
-  <line x1="140" y1="0" x2="140" y2="318" class="guide"/>
-  <g transform="translate(0,0)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.4,8 16.8,16 22.2,8 27.6,16 33,8 38.4,16 43.8,8 49.2,16 54.6,8 60,12"/>
-    <rect x="60" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="70" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-  </g>
-  <g transform="translate(0,34)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.3,8 16.7,16 22,8 27.3,16 32.7,8 38,16 43.3,8 48.7,16 54,8 59.3,16 64.7,8 70,12"/>
-    <rect x="70" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="80" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-  </g>
-  <g transform="translate(0,68)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.3,8 16.6,16 21.9,8 27.1,16 32.4,8 37.7,16 43,8 48.3,16 53.6,8 58.9,16 64.1,8 69.4,16 74.7,8 80,12"/>
-    <rect x="80" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="90" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-  </g>
-  <g transform="translate(0,102)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.2,8 16.5,16 21.8,8 27,16 32.2,8 37.5,16 42.8,8 48,16 53.2,8 58.5,16 63.8,8 69,16 74.2,8 79.5,16 84.8,8 90,12"/>
-    <rect x="90" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="100" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-  </g>
-  <g transform="translate(0,136)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.2,8 16.4,16 21.7,8 26.9,16 32.1,8 37.3,16 42.6,8 47.8,16 53,8 58.2,16 63.4,8 68.7,16 73.9,8 79.1,16 84.3,8 89.6,16 94.8,8 100,12"/>
-    <rect x="100" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="110" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-    <polygon class="arrow" points="124,8 133,12 124,16"/>
-  </g>
-  <g transform="translate(0,170)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.2,8 16.5,16 21.8,8 27,16 32.2,8 37.5,16 42.8,8 48,16 53.2,8 58.5,16 63.8,8 69,16 74.2,8 79.5,16 84.8,8 90,12"/>
-    <rect x="90" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="100" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-    <polygon class="arrow" points="88,8 79,12 88,16"/>
-  </g>
-  <g transform="translate(0,204)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.3,8 16.6,16 21.9,8 27.1,16 32.4,8 37.7,16 43,8 48.3,16 53.6,8 58.9,16 64.1,8 69.4,16 74.7,8 80,12"/>
-    <rect x="80" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="90" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-    <polygon class="arrow" points="78,8 69,12 78,16"/>
-  </g>
-  <g transform="translate(0,238)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.3,8 16.7,16 22,8 27.3,16 32.7,8 38,16 43.3,8 48.7,16 54,8 59.3,16 64.7,8 70,12"/>
-    <rect x="70" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="80" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-    <polygon class="arrow" points="68,8 59,12 68,16"/>
-  </g>
-  <g transform="translate(0,272)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.4,8 16.8,16 22.2,8 27.6,16 33,8 38.4,16 43.8,8 49.2,16 54.6,8 60,12"/>
-    <rect x="60" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="70" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-    <polygon class="arrow" points="58,8 49,12 58,16"/>
-  </g>
-  <g transform="translate(0,306)">
-    <line x1="0" y1="22" x2="240" y2="22" class="frame-line"/>
-    <line x1="6" y1="4" x2="6" y2="22" class="wall"/>
-    <polyline class="spring" points="6,12 11.3,8 16.6,16 21.9,8 27.1,16 32.4,8 37.7,16 43,8 48.3,16 53.6,8 58.9,16 64.1,8 69.4,16 74.7,8 80,12"/>
-    <rect x="80" y="2" width="20" height="20" class="block"/>
-    <text class="label" x="90" y="16" text-anchor="middle">m</text>
-    <text class="k" x="10" y="7">k</text>
-    <polygon class="arrow" points="104,8 113,12 104,16"/>
-  </g>
-  <line x1="55" y1="340" x2="205" y2="340" stroke="#444" stroke-width="1.4" marker-end="url(#tarr)"/>
-  <text class="label" x="130" y="360" text-anchor="middle">时间 t</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="650" viewBox="0 0 720 650" role="img" aria-labelledby="title"><title id="title">弹簧振子：从平衡位置向右出发</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="720" height="650" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">弹簧振子：从平衡位置向右出发</text>
+<text x="25" y="76" font-size="19" fill="#5E7488">各行按时间先后排列；虚线为物体中心的平衡位置。</text>
+<line x1="350.000" y1="104.000" x2="350.000" y2="560.000" stroke="#6B9CBE" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="24" y="147" font-size="19" fill="#243E56">t = 0</text>
+<line x1="130.000" y1="113.000" x2="130.000" y2="168.000" stroke="#526D83" stroke-width="3"/>
+<line x1="120.000" y1="121.000" x2="130.000" y2="113.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="133.000" x2="130.000" y2="125.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="145.000" x2="130.000" y2="137.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="157.000" x2="130.000" y2="149.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="169.000" x2="130.000" y2="161.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="130.000" y1="163.000" x2="500.000" y2="163.000" stroke="#526D83" stroke-width="1.5"/>
+<polyline points="130.000,140.000 144.000,140.000 144.000,131.000 153.056,149.000 162.111,131.000 171.167,149.000 180.222,131.000 189.278,149.000 198.333,131.000 207.389,149.000 216.444,131.000 225.500,149.000 234.556,131.000 243.611,149.000 252.667,131.000 261.722,149.000 270.778,131.000 279.833,149.000 288.889,131.000 297.944,149.000 307.000,131.000 307.000,140.000 321.000,140.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="321.0" y="118.0" width="58" height="44" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="350.0" y="147" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<line x1="320.000" y1="106.000" x2="380.000" y2="106.000" stroke="#346E9D" stroke-width="2.5" marker-end="url(#main)"/>
+<text x="535" y="147" font-size="20" fill="#243E56">v &gt; 0</text>
+<text x="24" y="235" font-size="19" fill="#243E56">t = T/4</text>
+<line x1="130.000" y1="201.000" x2="130.000" y2="256.000" stroke="#526D83" stroke-width="3"/>
+<line x1="120.000" y1="209.000" x2="130.000" y2="201.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="221.000" x2="130.000" y2="213.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="233.000" x2="130.000" y2="225.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="245.000" x2="130.000" y2="237.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="257.000" x2="130.000" y2="249.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="130.000" y1="251.000" x2="500.000" y2="251.000" stroke="#526D83" stroke-width="1.5"/>
+<polyline points="130.000,228.000 144.000,228.000 144.000,219.000 157.500,237.000 171.000,219.000 184.500,237.000 198.000,219.000 211.500,237.000 225.000,219.000 238.500,237.000 252.000,219.000 265.500,237.000 279.000,219.000 292.500,237.000 306.000,219.000 319.500,237.000 333.000,219.000 346.500,237.000 360.000,219.000 373.500,237.000 387.000,219.000 387.000,228.000 401.000,228.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="401.0" y="206.0" width="58" height="44" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="430.0" y="235" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<text x="535" y="235" font-size="20" fill="#243E56">v = 0</text>
+<text x="24" y="323" font-size="19" fill="#243E56">t = T/2</text>
+<line x1="130.000" y1="289.000" x2="130.000" y2="344.000" stroke="#526D83" stroke-width="3"/>
+<line x1="120.000" y1="297.000" x2="130.000" y2="289.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="309.000" x2="130.000" y2="301.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="321.000" x2="130.000" y2="313.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="333.000" x2="130.000" y2="325.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="345.000" x2="130.000" y2="337.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="130.000" y1="339.000" x2="500.000" y2="339.000" stroke="#526D83" stroke-width="1.5"/>
+<polyline points="130.000,316.000 144.000,316.000 144.000,307.000 153.056,325.000 162.111,307.000 171.167,325.000 180.222,307.000 189.278,325.000 198.333,307.000 207.389,325.000 216.444,307.000 225.500,325.000 234.556,307.000 243.611,325.000 252.667,307.000 261.722,325.000 270.778,307.000 279.833,325.000 288.889,307.000 297.944,325.000 307.000,307.000 307.000,316.000 321.000,316.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="321.0" y="294.0" width="58" height="44" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="350.0" y="323" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<line x1="380.000" y1="282.000" x2="320.000" y2="282.000" stroke="#346E9D" stroke-width="2.5" marker-end="url(#main)"/>
+<text x="535" y="323" font-size="20" fill="#243E56">v &lt; 0</text>
+<text x="24" y="411" font-size="19" fill="#243E56">t = 3T/4</text>
+<line x1="130.000" y1="377.000" x2="130.000" y2="432.000" stroke="#526D83" stroke-width="3"/>
+<line x1="120.000" y1="385.000" x2="130.000" y2="377.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="397.000" x2="130.000" y2="389.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="409.000" x2="130.000" y2="401.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="421.000" x2="130.000" y2="413.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="433.000" x2="130.000" y2="425.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="130.000" y1="427.000" x2="500.000" y2="427.000" stroke="#526D83" stroke-width="1.5"/>
+<polyline points="130.000,404.000 143.875,404.000 143.875,395.000 148.500,413.000 153.125,395.000 157.750,413.000 162.375,395.000 167.000,413.000 171.625,395.000 176.250,413.000 180.875,395.000 185.500,413.000 190.125,395.000 194.750,413.000 199.375,395.000 204.000,413.000 208.625,395.000 213.250,413.000 217.875,395.000 222.500,413.000 227.125,395.000 227.125,404.000 241.000,404.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="241.0" y="382.0" width="58" height="44" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="270.0" y="411" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<text x="535" y="411" font-size="20" fill="#243E56">v = 0</text>
+<text x="24" y="499" font-size="19" fill="#243E56">t = T</text>
+<line x1="130.000" y1="465.000" x2="130.000" y2="520.000" stroke="#526D83" stroke-width="3"/>
+<line x1="120.000" y1="473.000" x2="130.000" y2="465.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="485.000" x2="130.000" y2="477.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="497.000" x2="130.000" y2="489.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="509.000" x2="130.000" y2="501.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="120.000" y1="521.000" x2="130.000" y2="513.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="130.000" y1="515.000" x2="500.000" y2="515.000" stroke="#526D83" stroke-width="1.5"/>
+<polyline points="130.000,492.000 144.000,492.000 144.000,483.000 153.056,501.000 162.111,483.000 171.167,501.000 180.222,483.000 189.278,501.000 198.333,483.000 207.389,501.000 216.444,483.000 225.500,501.000 234.556,483.000 243.611,501.000 252.667,483.000 261.722,501.000 270.778,483.000 279.833,501.000 288.889,483.000 297.944,501.000 307.000,483.000 307.000,492.000 321.000,492.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="321.0" y="470.0" width="58" height="44" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="350.0" y="499" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<line x1="320.000" y1="458.000" x2="380.000" y2="458.000" stroke="#346E9D" stroke-width="2.5" marker-end="url(#main)"/>
+<text x="535" y="499" font-size="20" fill="#243E56">v &gt; 0</text>
+<text x="30" y="606" font-size="21" fill="#243E56">两端：v = 0；平衡位置：速率最大。</text>
+</g></svg>

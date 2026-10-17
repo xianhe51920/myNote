@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">三路最佳归并：先补虚段，再合并最短段</title>
+  <desc id="desc">真实段长 2,3,6,9,12,17,18,24；r=8，(r−1)%2=1，因此补一个 0 长度虚段。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="898" height="558" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">三路最佳归并：先补虚段，再合并最短段</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">真实段长 2,3,6,9,12,17,18,24；r=8，(r−1)%2=1，因此补一个 0 长度虚段。</text>
+  <line x1="493.20880333001924" y1="150.5298208483221" x2="339.641134003756" y2="218.69019242217257" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="528.446087692317" y1="166.11622554211306" x2="535.8166561709297" y2="201.9492392325452" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="548.4578633366475" y1="150.5298208483221" x2="702.0255326629107" y2="218.69019242217257" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="283.0112292787312" y1="244.4782853771019" x2="195.36505126188234" y2="304.4492490394091" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="322.27192232395174" y1="253.90877970390784" x2="339.75848803285464" y2="294.3201995772842" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="333.6554373879354" y1="244.4782853771019" x2="421.3016154047843" y2="304.4492490394091" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="144.94860592926358" y1="338.6264309147845" x2="96.83602439127907" y2="389.9938334618981" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="166.66666666666666" y1="347.0" x2="166.66666666666666" y2="381.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="188.38472740406974" y1="338.6264309147845" x2="236.49730894205425" y2="389.9938334618981" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="711.6152725959303" y1="248.62643091478452" x2="663.5026910579458" y2="299.9938334618981" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="733.3333333333334" y1="257.0" x2="733.3333333333334" y2="291.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="755.0513940707365" y1="248.62643091478452" x2="803.163975608721" y2="299.9938334618981" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="43.22222222222223" y="388.0" width="58" height="44" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="72.22" y="410" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">0</text>
+  <rect x="137.66666666666666" y="388.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="166.67" y="410" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">2</text>
+  <rect x="232.1111111111111" y="388.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="261.11" y="410" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">3</text>
+  <rect x="326.55555555555554" y="298.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="355.56" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">6</text>
+  <rect x="421.0" y="298.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="450.0" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">9</text>
+  <rect x="515.4444444444445" y="208.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="544.44" y="230" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">24</text>
+  <rect x="609.8888888888889" y="298.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="638.89" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">12</text>
+  <rect x="704.3333333333334" y="298.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="733.33" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">17</text>
+  <rect x="798.7777777777778" y="298.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="827.78" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">18</text>
+  <rect x="137.66666666666666" y="298.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="166.67" y="320" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">5</text>
+  <rect x="279.3333333333333" y="208.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="308.33" y="230" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">20</text>
+  <rect x="704.3333333333334" y="208.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="733.33" y="230" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">47</text>
+  <rect x="491.83333333333337" y="118.0" width="58" height="44" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="520.83" y="140" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">91</text>
+  <text x="450" y="456" font-size="23" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">合并权值：5 → 20 → 47 → 91</text>
+  <text x="450" y="502" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">WPL = 163；归并阶段块 I/O = 2WPL = 326</text>
+  <metadata>{"children": {"91": [["", "20"], ["", "24"], ["", "47"]], "20": [["", "5"], ["", "6"], ["", "9"]], "5": [["", "0"], ["", "2"], ["", "3"]], "47": [["", "12"], ["", "17"], ["", "18"]]}, "real_weights": [2, 3, 6, 9, 12, 17, 18, 24], "dummy": [0], "merges": [5, 20, 47, 91], "WPL": 163, "IO": 326}</metadata>
+</svg>

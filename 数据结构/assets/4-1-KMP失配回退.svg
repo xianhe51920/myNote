@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">KMP：主串不回退，模式串复用前缀</title>
+  <desc id="desc">S=abaabaabcabaabc；T=abaabc。以下只画主串前 9 个字符，位序从 1 开始。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="598" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">KMP：主串不回退，模式串复用前缀</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">S=abaabaabcabaabc；T=abaabc。以下只画主串前 9 个字符，位序从 1 开始。</text>
+  <text x="100" y="147" font-size="23" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">S</text>
+  <rect x="150" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="179.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <text x="179.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="208" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="237.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">b</text>
+  <text x="237.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="266" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="295.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <text x="295.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="324" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="353.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <text x="353.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="382" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="411.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">b</text>
+  <text x="411.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="440" y="125" width="58" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="469.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <text x="469.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <rect x="498" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="527.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <text x="527.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">7</text>
+  <rect x="556" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="585.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">b</text>
+  <text x="585.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">8</text>
+  <rect x="614" y="125" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="643.0" y="147" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">c</text>
+  <text x="643.0" y="109" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">9</text>
+  <text x="100" y="232" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">原 T</text>
+  <rect x="150" y="210" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="179.0" y="232" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <rect x="208" y="210" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="237.0" y="232" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">b</text>
+  <rect x="266" y="210" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="295.0" y="232" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <rect x="324" y="210" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="353.0" y="232" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <rect x="382" y="210" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="411.0" y="232" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">b</text>
+  <rect x="440" y="210" width="58" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="469.0" y="232" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">c</text>
+  <rect x="394.0" y="270" width="150.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="469.0" y="285" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">i=6，j=6：a ≠ c</text>
+  <text x="100" y="348" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">移后 T</text>
+  <rect x="324" y="326" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="353.0" y="348" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <rect x="382" y="326" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="411.0" y="348" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">b</text>
+  <rect x="440" y="326" width="58" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="469.0" y="348" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <rect x="498" y="326" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="527.0" y="348" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">a</text>
+  <rect x="556" y="326" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="585.0" y="348" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">b</text>
+  <rect x="614" y="326" width="58" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="643.0" y="348" font-size="22" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">c</text>
+  <line x1="469.0" y1="303" x2="469.0" y2="320" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <text x="35" y="407" font-size="20" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">失配后 j=next[6]=3，i 仍为 6；T[1..2] 已匹配，无需重比。随后匹配成功，起始</text>
+  <text x="35" y="436" font-size="20" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">位置为 4。</text>
+  <text x="155" y="486" font-size="18" fill="#7A3448" text-anchor="end" dominant-baseline="middle" font-weight="400">j</text>
+  <text x="220" y="486" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="300" y="486" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <text x="380" y="486" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <text x="460" y="486" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <text x="540" y="486" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <text x="620" y="486" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <text x="155" y="518" font-size="18" fill="#7A3448" text-anchor="end" dominant-baseline="middle" font-weight="400">next</text>
+  <text x="220" y="518" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="300" y="518" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="380" y="518" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="460" y="518" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <text x="540" y="518" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <text x="620" y="518" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <text x="155" y="550" font-size="18" fill="#7A3448" text-anchor="end" dominant-baseline="middle" font-weight="400">nextval</text>
+  <text x="220" y="550" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="300" y="550" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="380" y="550" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <text x="460" y="550" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <text x="540" y="550" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="620" y="550" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <metadata>{"S": "abaabaabcabaabc", "T": "abaabc", "failure": [6, 6], "next": [0, 1, 1, 2, 2, 3], "nextval": [0, 1, 0, 2, 1, 3], "after_failure": [6, 3], "match_position": 4}</metadata>
+</svg>

@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="864pt" height="417.6pt" viewBox="0 0 864 417.6" version="1.1" role="img" aria-label="最短与最长距离聚类">
+ <title>最短与最长距离聚类</title>
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title>最短与最长距离聚类</dc:title>
+    <dc:date>2026-10-16T21:25:19.170362</dc:date>
+    <dc:description>一维演练点0、1、4、10，在两种类间距离准则下的合并关系与高度。</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 417.6  L 864 417.6  L 864 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36.336217 394.814604  L 424.161562 394.814604  L 424.161562 23.351959  L 36.336217 23.351959  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="84.814385" y="411.558744" transform="rotate(-0 84.814385 411.558744)">D=10</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="181.770721" y="411.558744" transform="rotate(-0 181.770721 411.558744)">C=4</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="278.727058" y="411.558744" transform="rotate(-0 278.727058 411.558744)">A=0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="375.683394" y="411.558744" transform="rotate(-0 375.683394 411.558744)">B=1</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <path d="M 36.336217 394.814604  L 424.161562 394.814604  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m09a05ecc98" d="M 0 0  L -3.5 0  " style="stroke: #806a71; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m09a05ecc98" x="36.336217" y="394.814604" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="29.336217" y="399.686674" transform="rotate(-0 29.336217 399.686674)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_3">
+      <path d="M 36.336217 335.852279  L 424.161562 335.852279  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="36.336217" y="335.852279" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="29.336217" y="340.724349" transform="rotate(-0 29.336217 340.724349)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_5">
+      <path d="M 36.336217 276.889955  L 424.161562 276.889955  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="36.336217" y="276.889955" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="29.336217" y="281.762025" transform="rotate(-0 29.336217 281.762025)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <path d="M 36.336217 217.92763  L 424.161562 217.92763  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="36.336217" y="217.92763" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="29.336217" y="222.7997" transform="rotate(-0 29.336217 222.7997)">3</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <path d="M 36.336217 158.965305  L 424.161562 158.965305  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="36.336217" y="158.965305" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="29.336217" y="163.837376" transform="rotate(-0 29.336217 163.837376)">4</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <path d="M 36.336217 100.002981  L 424.161562 100.002981  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="36.336217" y="100.002981" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="29.336217" y="104.875051" transform="rotate(-0 29.336217 104.875051)">5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13">
+      <path d="M 36.336217 41.040656  L 424.161562 41.040656  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="36.336217" y="41.040656" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="29.336217" y="45.912726" transform="rotate(-0 29.336217 45.912726)">6</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 14px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7a3448" x="14.75149" y="209.083281" transform="rotate(-90 14.75149 209.083281)">类间距离</text>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 278.727058 394.814604  L 278.727058 335.852279  L 375.683394 335.852279  L 375.683394 394.814604  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #d66e8e; stroke-width: 1.5" />
+    <path d="M 181.770721 394.814604  L 181.770721 217.92763  L 327.205226 217.92763  L 327.205226 335.852279  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #d66e8e; stroke-width: 1.5" />
+    <path d="M 84.814385 394.814604  L 84.814385 41.040656  L 254.487974 41.040656  L 254.487974 217.92763  " clip-path="url(#pc82f308dac)" style="fill: none; stroke: #d66e8e; stroke-width: 1.5" />
+   </g>
+   <g id="patch_3">
+    <path d="M 36.336217 394.814604  L 36.336217 23.351959  " style="fill: none; stroke: #b995a1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 36.336217 394.814604  L 424.161562 394.814604  " style="fill: none; stroke: #b995a1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_13">
+    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7a3448" x="230.24889" y="17.351959" transform="rotate(-0 230.24889 17.351959)">最短距离：合并高度 1、3、6</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 473.174414 394.814604  L 860.99976 394.814604  L 860.99976 23.351959  L 473.174414 23.351959  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="text_14">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="521.652582" y="411.558744" transform="rotate(-0 521.652582 411.558744)">D=10</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="text_15">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="618.608919" y="411.558744" transform="rotate(-0 618.608919 411.558744)">C=4</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="text_16">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="715.565255" y="411.558744" transform="rotate(-0 715.565255 411.558744)">A=0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="text_17">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="812.521592" y="411.558744" transform="rotate(-0 812.521592 411.558744)">B=1</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_15">
+      <path d="M 473.174414 394.814604  L 860.99976 394.814604  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="473.174414" y="394.814604" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="466.174414" y="399.686674" transform="rotate(-0 466.174414 399.686674)">0</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_17">
+      <path d="M 473.174414 324.059814  L 860.99976 324.059814  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="473.174414" y="324.059814" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="466.174414" y="328.931885" transform="rotate(-0 466.174414 328.931885)">2</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_19">
+      <path d="M 473.174414 253.305025  L 860.99976 253.305025  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="473.174414" y="253.305025" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="466.174414" y="258.177095" transform="rotate(-0 466.174414 258.177095)">4</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_21">
+      <path d="M 473.174414 182.550235  L 860.99976 182.550235  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="473.174414" y="182.550235" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="466.174414" y="187.422305" transform="rotate(-0 466.174414 187.422305)">6</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_23">
+      <path d="M 473.174414 111.795446  L 860.99976 111.795446  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="473.174414" y="111.795446" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="466.174414" y="116.667516" transform="rotate(-0 466.174414 116.667516)">8</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_25">
+      <path d="M 473.174414 41.040656  L 860.99976 41.040656  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.4; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use ns4:href="#m09a05ecc98" x="473.174414" y="41.040656" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="466.174414" y="45.912726" transform="rotate(-0 466.174414 45.912726)">10</text>
+     </g>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 14px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7a3448" x="444.552812" y="209.083281" transform="rotate(-90 444.552812 209.083281)">类间距离</text>
+    </g>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 715.565255 394.814604  L 715.565255 359.437209  L 812.521592 359.437209  L 812.521592 394.814604  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #d66e8e; stroke-width: 1.5" />
+    <path d="M 618.608919 394.814604  L 618.608919 253.305025  L 764.043424 253.305025  L 764.043424 359.437209  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #d66e8e; stroke-width: 1.5" />
+    <path d="M 521.652582 394.814604  L 521.652582 41.040656  L 691.326171 41.040656  L 691.326171 253.305025  " clip-path="url(#p7dd3ab5d32)" style="fill: none; stroke: #d66e8e; stroke-width: 1.5" />
+   </g>
+   <g id="patch_6">
+    <path d="M 473.174414 394.814604  L 473.174414 23.351959  " style="fill: none; stroke: #b995a1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_7">
+    <path d="M 473.174414 394.814604  L 860.99976 394.814604  " style="fill: none; stroke: #b995a1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_25">
+    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7a3448" x="667.087087" y="17.351959" transform="rotate(-0 667.087087 17.351959)">最长距离：合并高度 1、4、10</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc82f308dac">
+   <rect x="36.336217" y="23.351959" width="387.825346" height="371.462645" />
+  </clipPath>
+  <clipPath id="p7dd3ab5d32">
+   <rect x="473.174414" y="23.351959" width="387.825346" height="371.462645" />
+  </clipPath>
+ </defs>
+<desc>一维演练点0、1、4、10，在两种类间距离准则下的合并关系与高度。</desc><metadata id="numerical-data">{"points": [0, 1, 4, 10], "single": [1, 3, 6], "complete": [1, 4, 10]}</metadata></svg>

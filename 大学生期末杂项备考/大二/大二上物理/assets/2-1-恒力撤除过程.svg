@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="570" viewBox="0 0 800 570" role="img" aria-labelledby="title"><title id="title">先外力做功，再作自由振动</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="800" height="570" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">先外力做功，再作自由振动</text>
+<line x1="80.000" y1="107.000" x2="80.000" y2="182.000" stroke="#526D83" stroke-width="3"/>
+<line x1="70.000" y1="115.000" x2="80.000" y2="107.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="127.000" x2="80.000" y2="119.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="139.000" x2="80.000" y2="131.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="151.000" x2="80.000" y2="143.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="163.000" x2="80.000" y2="155.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="175.000" x2="80.000" y2="167.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="187.000" x2="80.000" y2="179.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="80.000" y1="171.000" x2="530.000" y2="171.000" stroke="#526D83" stroke-width="1.6" marker-end="url(#axis)"/>
+<polyline points="80.000,145.000 94.000,145.000 94.000,136.000 109.056,154.000 124.111,136.000 139.167,154.000 154.222,136.000 169.278,154.000 184.333,136.000 199.389,154.000 214.444,136.000 229.500,154.000 244.556,136.000 259.611,154.000 274.667,136.000 289.722,154.000 304.778,136.000 319.833,154.000 334.889,136.000 349.944,154.000 365.000,136.000 365.000,145.000 379.000,145.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="379.0" y="120.0" width="62" height="50" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="410" y="152" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<text x="540" y="133" font-size="18" fill="#243E56">① 平衡位置：静止</text>
+<text x="540" y="165" font-size="19" fill="#243E56">机械能为 0</text>
+<line x1="526.000" y1="145.000" x2="459.000" y2="145.000" stroke="#346E9D" stroke-width="2.5" marker-end="url(#main)"/>
+<text x="489" y="130" font-size="20" fill="#243E56">F</text>
+<line x1="80.000" y1="252.000" x2="80.000" y2="327.000" stroke="#526D83" stroke-width="3"/>
+<line x1="70.000" y1="260.000" x2="80.000" y2="252.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="272.000" x2="80.000" y2="264.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="284.000" x2="80.000" y2="276.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="296.000" x2="80.000" y2="288.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="308.000" x2="80.000" y2="300.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="320.000" x2="80.000" y2="312.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="332.000" x2="80.000" y2="324.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="80.000" y1="316.000" x2="530.000" y2="316.000" stroke="#526D83" stroke-width="1.6" marker-end="url(#axis)"/>
+<polyline points="80.000,290.000 94.000,290.000 94.000,281.000 106.833,299.000 119.667,281.000 132.500,299.000 145.333,281.000 158.167,299.000 171.000,281.000 183.833,299.000 196.667,281.000 209.500,299.000 222.333,281.000 235.167,299.000 248.000,281.000 260.833,299.000 273.667,281.000 286.500,299.000 299.333,281.000 312.167,299.000 325.000,281.000 325.000,290.000 339.000,290.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="339.0" y="265.0" width="62" height="50" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="370" y="297" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<text x="540" y="278" font-size="18" fill="#243E56">② x = −0.05 m：撤力</text>
+<text x="540" y="310" font-size="19" fill="#243E56">机械能为 0.5 J</text>
+<line x1="486.000" y1="290.000" x2="419.000" y2="290.000" stroke="#346E9D" stroke-width="2.5" marker-end="url(#main)"/>
+<text x="449" y="275" font-size="20" fill="#243E56">F</text>
+<line x1="80.000" y1="397.000" x2="80.000" y2="472.000" stroke="#526D83" stroke-width="3"/>
+<line x1="70.000" y1="405.000" x2="80.000" y2="397.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="417.000" x2="80.000" y2="409.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="429.000" x2="80.000" y2="421.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="441.000" x2="80.000" y2="433.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="453.000" x2="80.000" y2="445.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="465.000" x2="80.000" y2="457.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="70.000" y1="477.000" x2="80.000" y2="469.000" stroke="#6B9CBE" stroke-width="1.3"/>
+<line x1="80.000" y1="461.000" x2="530.000" y2="461.000" stroke="#526D83" stroke-width="1.6" marker-end="url(#axis)"/>
+<polyline points="80.000,435.000 94.000,435.000 94.000,426.000 100.167,444.000 106.333,426.000 112.500,444.000 118.667,426.000 124.833,444.000 131.000,426.000 137.167,444.000 143.333,426.000 149.500,444.000 155.667,426.000 161.833,444.000 168.000,426.000 174.167,444.000 180.333,426.000 186.500,444.000 192.667,426.000 198.833,444.000 205.000,426.000 205.000,435.000 219.000,435.000" fill="none" stroke="#346E9D" stroke-width="2"/>
+<rect x="219.0" y="410.0" width="62" height="50" rx="2" fill="#D6E5F0" stroke="#346E9D"/>
+<text x="250" y="442" font-size="20" fill="#243E56" text-anchor="middle">m</text>
+<text x="540" y="423" font-size="18" fill="#243E56">③ x = −0.20 m：开始计时</text>
+<text x="540" y="455" font-size="19" fill="#243E56">v = 0，φ = π</text>
+<line x1="410.000" y1="92.000" x2="410.000" y2="494.000" stroke="#6B9CBE" stroke-width="1.4" stroke-dasharray="5 5"/>
+<text x="420" y="508" font-size="18" fill="#243E56">O</text>
+<text x="538" y="475" font-size="18" fill="#243E56">+x</text>
+<text x="27" y="546" font-size="21" fill="#243E56">恒力做功后撤除；撤力后的振动阶段机械能守恒。</text>
+</g></svg>

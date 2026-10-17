@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="720pt" height="432pt" viewBox="0 0 720 432" version="1.1" role="img" aria-label="Fisher 二类投影示意">
+ <title>Fisher 二类投影示意</title>
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title>Fisher 二类投影示意</dc:title>
+    <dc:date>2026-10-16T21:25:18.360675</dc:date>
+    <dc:description>等协方差模拟数据，仅用于展示投影，非课件天气原始样本。Fisher方向由总体共同协方差与均值差计算。</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432  L 720 432  L 720 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 137.611457 390.024877  L 582.388543 390.024877  L 582.388543 34.203209  L 137.611457 34.203209  z " style="fill: #ffffff" />
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m6bebed4b81" d="M 0 2.645751  C 0.701661 2.645751 1.374679 2.366978 1.870829 1.870829  C 2.366978 1.374679 2.645751 0.701661 2.645751 0  C 2.645751 -0.701661 2.366978 -1.374679 1.870829 -1.870829  C 1.374679 -2.366978 0.701661 -2.645751 0 -2.645751  C -0.701661 -2.645751 -1.374679 -2.366978 -1.870829 -1.870829  C -2.366978 -1.374679 -2.645751 -0.701661 -2.645751 0  C -2.645751 0.701661 -2.366978 1.374679 -1.870829 1.870829  C -1.374679 2.366978 -0.701661 2.645751 0 2.645751  z " style="stroke: #d66e8e" />
+    </defs>
+    <g clip-path="url(#p9ce7b16646)">
+     <use ns4:href="#m6bebed4b81" x="326.73023" y="216.692587" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="286.93665" y="250.177837" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="217.414943" y="299.65465" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="254.429427" y="271.072881" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="309.662859" y="216.974457" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="235.742544" y="283.985781" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="315.756705" y="256.390597" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="208.807284" y="336.854416" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="328.563066" y="248.018058" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="254.965864" y="267.336463" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="308.7019" y="229.081096" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="268.476246" y="271.733055" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="322.810308" y="220.168674" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="276.866896" y="282.924296" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="288.684693" y="222.063168" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="210.335177" y="285.343032" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="240.229957" y="246.904179" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="292.42845" y="241.049384" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="267.363278" y="232.231756" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="313.463802" y="234.056018" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="205.91597" y="329.372364" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="342.907573" y="169.633239" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="241.502905" y="311.701378" style="fill: #f8bbd0; stroke: #d66e8e" />
+     <use ns4:href="#m6bebed4b81" x="322.441017" y="230.906116" style="fill: #f8bbd0; stroke: #d66e8e" />
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m1ea88dd9ee" d="M 0 2.645751  C 0.701661 2.645751 1.374679 2.366978 1.870829 1.870829  C 2.366978 1.374679 2.645751 0.701661 2.645751 0  C 2.645751 -0.701661 2.366978 -1.374679 1.870829 -1.870829  C 1.374679 -2.366978 0.701661 -2.645751 0 -2.645751  C -0.701661 -2.645751 -1.374679 -2.366978 -1.870829 -1.870829  C -2.366978 -1.374679 -2.645751 -0.701661 -2.645751 0  C -2.645751 0.701661 -2.366978 1.374679 -1.870829 1.870829  C -1.374679 2.366978 -0.701661 2.645751 0 2.645751  z " style="stroke: #77859f; stroke-opacity: 0.8" />
+    </defs>
+    <g clip-path="url(#p9ce7b16646)">
+     <use ns4:href="#m1ea88dd9ee" x="426.73449" y="149.205611" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="425.880301" y="230.764117" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="394.362167" y="240.261178" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="437.659465" y="179.623362" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="483.744634" y="173.245683" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="352.638737" y="253.21323" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="396.505353" y="235.445316" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="428.887416" y="200.527894" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="413.341093" y="167.135297" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="486.491419" y="137.102853" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="411.738842" y="165.353845" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="409.893885" y="217.729068" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="496.125795" y="131.624018" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="393.347372" y="183.312915" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="536.850903" y="149.774133" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="469.346945" y="139.777827" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="406.711206" y="229.908075" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="441.906594" y="141.072678" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="468.489809" y="122.917576" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="359.21075" y="211.809471" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="370.066426" y="244.773032" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="485.216901" y="82.787648" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="387.031093" y="176.054877" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     <use ns4:href="#m1ea88dd9ee" x="452.265439" y="197.33983" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 182.089166 390.024877  L 182.089166 34.203209  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="me0f2dee7ce" d="M 0 0  L 0 3.5  " style="stroke: #806a71; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#me0f2dee7ce" x="182.089166" y="390.024877" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="182.089166" y="406.769018" transform="rotate(-0 182.089166 406.769018)">-4</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 271.044583 390.024877  L 271.044583 34.203209  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#me0f2dee7ce" x="271.044583" y="390.024877" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="271.044583" y="406.769018" transform="rotate(-0 271.044583 406.769018)">-2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 360 390.024877  L 360 34.203209  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#me0f2dee7ce" x="360" y="390.024877" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="360" y="406.769018" transform="rotate(-0 360 406.769018)">0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 448.955417 390.024877  L 448.955417 34.203209  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use ns4:href="#me0f2dee7ce" x="448.955417" y="390.024877" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="448.955417" y="406.769018" transform="rotate(-0 448.955417 406.769018)">2</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 537.910834 390.024877  L 537.910834 34.203209  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use ns4:href="#me0f2dee7ce" x="537.910834" y="390.024877" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #806a71" x="537.910834" y="406.769018" transform="rotate(-0 537.910834 406.769018)">4</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 14px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7a3448" x="360" y="425.451908" transform="rotate(-0 360 425.451908)">特征 1</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <path d="M 137.611457 390.024877  L 582.388543 390.024877  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_12">
+      <defs>
+       <path id="maffb073499" d="M 0 0  L -3.5 0  " style="stroke: #806a71; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="390.024877" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="394.896948" transform="rotate(-0 130.611457 394.896948)">-4</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_13">
+      <path d="M 137.611457 345.547169  L 582.388543 345.547169  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="345.547169" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="350.419239" transform="rotate(-0 130.611457 350.419239)">-3</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <path d="M 137.611457 301.06946  L 582.388543 301.06946  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="301.06946" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="305.94153" transform="rotate(-0 130.611457 305.94153)">-2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_17">
+      <path d="M 137.611457 256.591752  L 582.388543 256.591752  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="256.591752" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="261.463822" transform="rotate(-0 130.611457 261.463822)">-1</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_19">
+      <path d="M 137.611457 212.114043  L 582.388543 212.114043  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="212.114043" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="216.986113" transform="rotate(-0 130.611457 216.986113)">0</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_21">
+      <path d="M 137.611457 167.636334  L 582.388543 167.636334  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="167.636334" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="172.508405" transform="rotate(-0 130.611457 172.508405)">1</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_23">
+      <path d="M 137.611457 123.158626  L 582.388543 123.158626  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="123.158626" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="128.030696" transform="rotate(-0 130.611457 128.030696)">2</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_25">
+      <path d="M 137.611457 78.680917  L 582.388543 78.680917  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="78.680917" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="83.552988" transform="rotate(-0 130.611457 83.552988)">3</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_27">
+      <path d="M 137.611457 34.203209  L 582.388543 34.203209  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #ebdde2; stroke-opacity: 0.3; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use ns4:href="#maffb073499" x="137.611457" y="34.203209" style="fill: #806a71; stroke: #806a71; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #806a71" x="130.611457" y="39.075279" transform="rotate(-0 130.611457 39.075279)">4</text>
+     </g>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 14px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7a3448" x="110.834856" y="212.114043" transform="rotate(-90 110.834856 212.114043)">特征 2</text>
+    </g>
+   </g>
+   <g id="line2d_29">
+    <path d="M 191.218963 155.853697  L 528.781037 268.374389  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke: #7a3448; stroke-width: 2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_30">
+    <path d="M 286.93665 250.177837  L 305.662123 194.001417  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #f8bbd0; stroke-width: 1.5" />
+   </g>
+   <g id="line2d_31">
+    <path d="M 208.807284 336.854416  L 261.348667 179.230265  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #f8bbd0; stroke-width: 1.5" />
+   </g>
+   <g id="line2d_32">
+    <path d="M 322.810308 220.168674  L 328.945667 201.762599  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #f8bbd0; stroke-width: 1.5" />
+   </g>
+   <g id="line2d_33">
+    <path d="M 425.880301 230.764117  L 424.887293 233.743141  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #77859f; stroke-width: 1.5" />
+   </g>
+   <g id="line2d_34">
+    <path d="M 428.887416 200.527894  L 418.52283 231.621653  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #77859f; stroke-width: 1.5" />
+   </g>
+   <g id="line2d_35">
+    <path d="M 496.125795 131.624018  L 458.366208 244.902779  " clip-path="url(#p9ce7b16646)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #77859f; stroke-width: 1.5" />
+   </g>
+   <g id="patch_3">
+    <path d="M 137.611457 390.024877  L 137.611457 34.203209  " style="fill: none; stroke: #b995a1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 137.611457 390.024877  L 582.388543 390.024877  " style="fill: none; stroke: #b995a1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_17">
+    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7a3448" x="360" y="17.203209" transform="rotate(-0 360 17.203209)">Fisher 判别：把两类投影到同一方向</text>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="m989cf53cfa" d="M 0 5  L 0 -5  " style="stroke: #f8bbd0; stroke-width: 1.5" />
+    </defs>
+    <g clip-path="url(#p9ce7b16646)">
+     <use ns4:href="#m989cf53cfa" x="331.43077" y="202.590966" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="305.662123" y="194.001417" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="257.935631" y="178.092587" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="282.674136" y="186.338755" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="316.154697" y="197.498942" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="269.729811" y="182.02398" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="333.464001" y="203.26871" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="261.348667" y="179.230265" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="342.477964" y="206.273364" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="282.036004" y="186.126044" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="318.921826" y="198.421318" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="295.514325" y="190.618818" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="328.945667" y="201.762599" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="306.423283" y="194.255137" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="298.800961" y="191.714363" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="247.270356" y="174.537495" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="262.644002" y="179.662044" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="307.866207" y="194.736112" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="282.662264" y="186.334798" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="324.700014" y="200.347381" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="256.501869" y="177.614666" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="331.872575" y="202.738235" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="283.228815" y="186.523648" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+     <use ns4:href="#m989cf53cfa" x="331.834538" y="202.725555" style="fill: #f8bbd0; stroke: #f8bbd0; stroke-width: 1.5" />
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="m083d524999" d="M 0 5  L 0 -5  " style="stroke: #77859f; stroke-width: 1.5" />
+    </defs>
+    <g clip-path="url(#p9ce7b16646)">
+     <use ns4:href="#m083d524999" x="401.188511" y="225.843547" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="424.887293" y="233.743141" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="399.370091" y="225.237406" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="420.146314" y="232.162814" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="459.709663" y="245.350597" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="365.704619" y="214.015583" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="399.8542" y="225.398776" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="418.52283" y="231.621653" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="394.513359" y="223.618496" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="451.33892" y="242.56035" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="392.536898" y="222.959676" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="406.589004" y="227.643711" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="458.366208" y="244.902779" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="381.372296" y="219.238142" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="500.46384" y="258.935323" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="436.711386" y="237.684505" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="407.378295" y="227.906808" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="412.403525" y="229.581885" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="430.881888" y="235.741339" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="359.198303" y="211.846811" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="378.857481" y="218.39987" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="433.897293" y="236.746474" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="373.510233" y="216.617454" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+     <use ns4:href="#m083d524999" x="438.606631" y="238.316253" style="fill: #77859f; stroke: #77859f; stroke-width: 1.5" />
+    </g>
+   </g>
+   <g id="legend_1">
+    <g id="PathCollection_5">
+     <g>
+      <use ns4:href="#m6bebed4b81" x="160.411457" y="51.890084" style="fill: #f8bbd0; stroke: #d66e8e" />
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #7a3448" x="182.011457" y="55.040084" transform="rotate(-0 182.011457 55.040084)">模拟类 1</text>
+    </g>
+    <g id="PathCollection_6">
+     <g>
+      <use ns4:href="#m1ea88dd9ee" x="160.411457" y="70.967974" style="fill: #77859f; fill-opacity: 0.8; stroke: #77859f; stroke-opacity: 0.8" />
+     </g>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #7a3448" x="182.011457" y="74.117974" transform="rotate(-0 182.011457 74.117974)">模拟类 2</text>
+    </g>
+    <g id="line2d_36">
+     <path d="M 148.411457 88.984615  L 160.411457 88.984615  L 172.411457 88.984615  " style="fill: none; stroke: #7a3448; stroke-width: 2; stroke-linecap: square" />
+    </g>
+    <g id="text_20">
+     <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #7a3448" x="182.011457" y="93.184615" transform="rotate(-0 182.011457 93.184615)">Fisher 方向</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9ce7b16646">
+   <rect x="137.611457" y="34.203209" width="444.777086" height="355.821668" />
+  </clipPath>
+ </defs>
+<desc>等协方差模拟数据，仅用于展示投影，非课件天气原始样本。Fisher方向由总体共同协方差与均值差计算。</desc><metadata id="numerical-data">{"covariance": [[1.2, 0.8], [0.8, 1.0]], "means": [[-2.0, -1.0], [2.0, 1.0]], "unit_direction": [0.9486832980505138, -0.316227766016838], "seed": 36}</metadata></svg>

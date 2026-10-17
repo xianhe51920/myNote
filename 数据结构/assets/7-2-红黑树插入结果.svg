@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">红黑树：插入结果与颜色</title>
+  <desc id="desc">使用正文的插入序列；末尾第二个 18 被拒绝。未画出的空孩子均为黑色 NIL。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="898" height="648" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">红黑树：插入结果与颜色</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">使用正文的插入序列；末尾第二个 18 被拒绝。未画出的空孩子均为黑色 NIL。</text>
+  <line x1="309.1667746534254" y1="156.78028228583503" x2="177.0217030118322" y2="224.34710421151053" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="229.79464285714286" y="176.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="241.29" y="191.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="363.15465391800313" y1="156.78028228583503" x2="495.29972555959637" y2="224.34710421151053" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="418.02678571428567" y="176.0" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="431.03" y="191.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="129.90438851622287" y1="259.53509744940527" x2="104.44169301494743" y2="304.79563607286104" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="104.57142857142858" y="268.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="116.07" y="283.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="162.95275434092" y1="259.53509744940527" x2="188.41544984219544" y2="304.79563607286104" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="163.78571428571428" y="268.0" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="176.79" y="283.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="207.14285714285714" y1="356.0" x2="207.14285714285714" y2="392.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="195.64285714285714" y="360.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="207.14" y="375.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="501.0096878174528" y1="252.08212804288036" x2="417.4866395211725" y2="312.80067728727664" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="446.08928571428567" y="268.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="457.59" y="283.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="550.7760264682614" y1="252.08212804288036" x2="634.2990747645417" y2="312.80067728727664" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="581.1964285714286" y="268.0" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="594.2" y="283.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="372.7615313733657" y1="351.53509744940527" x2="347.29883587209025" y2="396.79563607286104" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="347.42857142857144" y="360.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="358.93" y="375.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="405.80989719806286" y1="351.53509744940527" x2="431.2725926993383" y2="396.79563607286104" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="406.6428571428571" y="360.0" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="419.64" y="375.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="328.57142857142856" y1="448.0" x2="328.57142857142856" y2="484.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="315.57142857142856" y="452.0" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="328.57" y="467.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="641.394665259565" y1="348.18847374989195" x2="595.3479508010644" y2="400.3901578241901" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="605.4642857142858" y="360.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="616.96" y="375.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="683.605334740435" y1="348.18847374989195" x2="729.6520491989356" y2="400.39015782419017" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="695.0357142857143" y="360.0" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="708.04" y="375.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <line x1="571.4285714285714" y1="448.0" x2="571.4285714285714" y2="484.0" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="559.9285714285714" y="452.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="571.43" y="467.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="737.0472456590801" y1="443.5350974494052" x2="711.5845501578046" y2="488.79563607286104" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="711.7142857142858" y="452.0" width="23.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="723.21" y="467.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">L</text>
+  <line x1="770.0956114837772" y1="443.53509744940527" x2="795.5583069850527" y2="488.79563607286104" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="770.9285714285716" y="452.0" width="26.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="783.93" y="467.0" font-size="18" fill="#D66E8E" text-anchor="middle" dominant-baseline="middle" font-weight="400">R</text>
+  <rect x="48.71428571428572" y="307.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="85.71" y="329" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">2 黑</text>
+  <rect x="170.14285714285714" y="399.0" width="74" height="44" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="207.14" y="421" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">4 红</text>
+  <rect x="291.57142857142856" y="491.0" width="74" height="44" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="328.57" y="513" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">19 红</text>
+  <rect x="413.0" y="399.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="450.0" y="421" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">22 黑</text>
+  <rect x="534.4285714285714" y="491.0" width="74" height="44" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="571.43" y="513" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">24 红</text>
+  <rect x="655.8571428571429" y="491.0" width="74" height="44" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="692.86" y="513" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">35 红</text>
+  <rect x="777.2857142857143" y="491.0" width="74" height="44" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="814.29" y="513" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">57 红</text>
+  <rect x="170.14285714285714" y="307.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="207.14" y="329" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">5 黑</text>
+  <rect x="109.42857142857144" y="215.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="146.43" y="237" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">3 黑</text>
+  <rect x="291.57142857142856" y="399.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="328.57" y="421" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">18 黑</text>
+  <rect x="352.2857142857143" y="307.0" width="74" height="44" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="389.29" y="329" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">20 红</text>
+  <rect x="534.4285714285714" y="399.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="571.43" y="421" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">25 黑</text>
+  <rect x="716.5714285714287" y="399.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="753.57" y="421" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">40 黑</text>
+  <rect x="625.5" y="307.0" width="74" height="44" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="662.5" y="329" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">30 红</text>
+  <rect x="488.8928571428571" y="215.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="525.89" y="237" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">23 黑</text>
+  <rect x="299.1607142857143" y="123.0" width="74" height="44" rx="12" fill="#374151" stroke="#E9A8BC" stroke-width="2" />
+  <text x="336.16" y="145" font-size="21" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="600">10 黑</text>
+  <text x="35" y="585" font-size="20" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">黑色结点用深色表示，红色结点用樱花粉表示；每条根到 NIL 的路径黑结点数相同。</text>
+  <metadata>{"sequence": [20, 10, 5, 30, 40, 57, 3, 2, 4, 35, 25, 18, 22, 23, 24, 19, 18], "root": 10, "children": {"10": [["L", "3"], ["R", "23"]], "3": [["L", "2"], ["R", "5"]], "2": [], "5": [["L", "4"]], "4": [], "23": [["L", "20"], ["R", "30"]], "20": [["L", "18"], ["R", "22"]], "18": [["R", "19"]], "19": [], "22": [], "30": [["L", "25"], ["R", "40"]], "25": [["L", "24"]], "24": [], "40": [["L", "35"], ["R", "57"]], "35": [], "57": []}, "colors": {"10": "black", "3": "black", "2": "black", "5": "black", "4": "red", "23": "black", "20": "red", "18": "black", "19": "red", "22": "black", "30": "red", "25": "black", "24": "red", "40": "black", "35": "red", "57": "red"}, "duplicate_policy": "reject"}</metadata>
+</svg>

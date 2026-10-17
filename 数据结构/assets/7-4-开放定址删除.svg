@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">开放定址：已删除不等于从未使用</title>
+  <desc id="desc">线性探测，m=13，H(key)=key%13。查找 key=1 的初始地址为 1。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="518" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">开放定址：已删除不等于从未使用</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">线性探测，m=13，H(key)=key%13。查找 key=1 的初始地址为 1。</text>
+  <text x="35" y="104" font-size="22" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">直接清空（错误）</text>
+  <rect x="38" y="158" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="65.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">13</text>
+  <text x="65.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="93" y="158" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="120.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">14</text>
+  <text x="120.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="148" y="158" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="175.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <text x="175.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="203" y="158" width="55" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="230.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">空</text>
+  <text x="230.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="258" y="158" width="55" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="285.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="285.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="313" y="158" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="340.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="340.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="368" y="158" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="395.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">19</text>
+  <text x="395.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <rect x="423" y="158" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="450.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="450.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">7</text>
+  <rect x="478" y="158" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="505.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="505.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">8</text>
+  <rect x="533" y="158" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="560.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="560.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">9</text>
+  <rect x="588" y="158" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="615.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">23</text>
+  <text x="615.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">10</text>
+  <rect x="643" y="158" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="670.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="670.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">11</text>
+  <rect x="698" y="158" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="725.5" y="180" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">12</text>
+  <text x="725.5" y="142" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">12</text>
+  <line x1="120.5" y1="213" x2="175.5" y2="213" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="175.5" y1="213" x2="230.5" y2="213" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <text x="400" y="250" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">#1 → #2 → #3(空，停止)：误报失败</text>
+  <text x="35" y="283" font-size="22" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">保留墓碑（正确）</text>
+  <rect x="38" y="337" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="65.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">13</text>
+  <text x="65.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="93" y="337" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="120.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">14</text>
+  <text x="120.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="148" y="337" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="175.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <text x="175.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="203" y="337" width="55" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="230.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">删</text>
+  <text x="230.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="258" y="337" width="55" height="44" rx="5" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="285.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <text x="285.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="313" y="337" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="340.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="340.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="368" y="337" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="395.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">19</text>
+  <text x="395.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <rect x="423" y="337" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="450.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="450.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">7</text>
+  <rect x="478" y="337" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="505.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="505.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">8</text>
+  <rect x="533" y="337" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="560.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="560.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">9</text>
+  <rect x="588" y="337" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="615.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">23</text>
+  <text x="615.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">10</text>
+  <rect x="643" y="337" width="55" height="44" rx="5" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="670.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400" />
+  <text x="670.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">11</text>
+  <rect x="698" y="337" width="55" height="44" rx="5" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="725.5" y="359" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">12</text>
+  <text x="725.5" y="321" font-size="15" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">12</text>
+  <line x1="120.5" y1="392" x2="175.5" y2="392" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="175.5" y1="392" x2="230.5" y2="392" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <line x1="230.5" y1="392" x2="285.5" y2="392" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <text x="400" y="429" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">#1 → #2 → #3(已删，继续) → #4：找到 1</text>
+  <metadata>{"m": 13, "before": ["13", "14", "2", "15", "1", "", "19", "", "", "", "23", "", "12"], "deleted_address": 3, "target": 1, "probe": [1, 2, 3, 4]}</metadata>
+</svg>

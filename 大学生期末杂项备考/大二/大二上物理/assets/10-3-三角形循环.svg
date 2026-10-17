@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="510" viewBox="0 0 950 510" role="img" aria-labelledby="title"><title id="title">三角形循环：面积求净功，分段求吸热</title><defs><marker id="axis" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#526D83"/></marker><marker id="main" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#346E9D"/></marker></defs><rect x="0" y="0" width="950" height="510" fill="#E8EFF5"/><g font-family="Microsoft YaHei, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<text x="26" y="39" font-size="24" fill="#243E56" font-weight="700">三角形循环：面积求净功，分段求吸热</text>
+<line x1="130.000" y1="365.000" x2="750.000" y2="365.000" stroke="#526D83" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="130.000" y1="365.000" x2="130.000" y2="115.000" stroke="#526D83" stroke-width="2" marker-end="url(#axis)"/>
+<text x="758" y="372" font-size="19" fill="#243E56">V</text>
+<text x="118" y="99" font-size="19" fill="#243E56">P</text>
+<line x1="370.000" y1="290.000" x2="610.000" y2="140.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<line x1="610.000" y1="140.000" x2="610.000" y2="290.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<line x1="610.000" y1="290.000" x2="370.000" y2="290.000" stroke="#346E9D" stroke-width="3" marker-end="url(#main)"/>
+<circle cx="370" cy="290" r="4" fill="#346E9D" stroke="#346E9D" stroke-width="2"/>
+<text x="345" y="315" font-size="23" fill="#243E56">A</text>
+<circle cx="610" cy="140" r="4" fill="#346E9D" stroke="#346E9D" stroke-width="2"/>
+<text x="625" y="130" font-size="23" fill="#243E56">B</text>
+<circle cx="610" cy="290" r="4" fill="#346E9D" stroke="#346E9D" stroke-width="2"/>
+<text x="625" y="300" font-size="23" fill="#243E56">C</text>
+<text x="370" y="400" font-size="21" fill="#243E56" text-anchor="middle">1</text>
+<text x="610" y="400" font-size="21" fill="#243E56" text-anchor="middle">2</text>
+<text x="108" y="297" font-size="21" fill="#243E56" text-anchor="end">1</text>
+<line x1="130.000" y1="290.000" x2="610.000" y2="290.000" stroke="#6B9CBE" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="108" y="147" font-size="21" fill="#243E56" text-anchor="end">3</text>
+<line x1="130.000" y1="140.000" x2="610.000" y2="140.000" stroke="#6B9CBE" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="715" y="148" font-size="22" fill="#243E56">AB：吸热</text>
+<text x="715" y="200" font-size="22" fill="#243E56">BC：放热</text>
+<text x="715" y="252" font-size="22" fill="#243E56">CA：放热</text>
+<text x="35" y="452" font-size="22" fill="#243E56">V 单位：10⁻³ m³；P 单位：10⁵ Pa；循环净功 100 J。</text>
+<text x="35" y="493" font-size="22" fill="#243E56">单原子理想气体：Qᵢₙ = 950 J，η = 2/19 ≈ 10.5%。</text>
+</g></svg>

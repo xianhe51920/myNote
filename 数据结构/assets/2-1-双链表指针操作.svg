@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" width="800" height="650" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">双链表：后插与后删</title>
+  <desc id="desc">仅画相关指针；p、q 是原链中的有效结点，s 是新分配的结点。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="648" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">双链表：后插与后删</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">仅画相关指针；p、q 是原链中的有效结点，s 是新分配的结点。</text>
+  <text x="35" y="119" font-size="22" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">① 在 p 后插入 s</text>
+  <rect x="84.0" y="167.0" width="92" height="56" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="130" y="195" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">p</text>
+  <rect x="344.0" y="167.0" width="92" height="56" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="390" y="195" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">s</text>
+  <rect x="604.0" y="167.0" width="92" height="56" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="650" y="195" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">q</text>
+  <line x1="179" y1="181" x2="340" y2="181" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="211.0" y="138" width="98.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="260" y="153" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">p.next = s</text>
+  <line x1="439" y1="181" x2="600" y2="181" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="471.0" y="138" width="98.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="520" y="153" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">s.next = q</text>
+  <line x1="340" y1="211" x2="179" y2="211" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="208.5" y="228" width="103.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="260" y="243" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">s.prior = p</text>
+  <line x1="600" y1="211" x2="439" y2="211" stroke="#D66E8E" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="468.5" y="228" width="103.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="520" y="243" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">q.prior = s</text>
+  <text x="35" y="291" font-size="19" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">先保留旧后继 q，再连接 s；最后覆盖 p.next。若 q 为 NULL，不可解引用 q.prior。</text>
+  <text x="35" y="365" font-size="22" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">② 删除 p 的后继 q</text>
+  <rect x="84.0" y="414.0" width="92" height="56" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="130" y="442" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">p</text>
+  <rect x="344.0" y="414.0" width="92" height="56" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="390" y="442" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">q</text>
+  <rect x="604.0" y="414.0" width="92" height="56" rx="12" fill="#FFF6F8" stroke="#E9A8BC" stroke-width="2" />
+  <text x="650" y="442" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">r</text>
+  <path d="M175,428 C290,352 490,352 605,428" fill="none" stroke="#D66E8E" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="341.5" y="370" width="97.0" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="390" y="385" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">p.next = r</text>
+  <path d="M605,456 C490,529 290,529 175,456" fill="none" stroke="#D66E8E" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="294.5078125" y="497" width="190.984375" height="30" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1.5" />
+  <text x="390" y="512" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">若 r 非空：r.prior = p</text>
+  <text x="390" y="574" font-size="20" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">断开 q 后再 free(q)；r 为空时只需改 p.next。</text>
+  <metadata>{"insert": ["s.next=q", "q.prior=s if q", "s.prior=p", "p.next=s"], "delete": ["p.next=r", "r.prior=p if r", "free(q)"]}</metadata>
+</svg>

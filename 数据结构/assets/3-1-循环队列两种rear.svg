@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 750" width="800" height="750" role="img" aria-labelledby="title desc" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#7A3448">
+  <title id="title">循环队列：先确定 rear 的含义</title>
+  <desc id="desc">两图存放同一队列：下标 7、8、9、0、1，依次保存 a、b、c、d、e；容量 M=10。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#D66E8E" />
+    </marker>
+    <marker id="gray-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B6A1A8" />
+    </marker>
+    <marker id="dark-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7A3448" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="748" rx="18" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="1.5" />
+  <text x="28" y="36" font-size="26" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">循环队列：先确定 rear 的含义</text>
+  <text x="28" y="73" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">两图存放同一队列：下标 7、8、9、0、1，依次保存 a、b、c、d、e；容量 M=10。</text>
+  <rect x="168.0" y="116.0" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="190.0" y="134.0" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">d</text>
+  <text x="190.0" y="99.0" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="224.4273842200774" y="134.33436854000504" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="246.43" y="152.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">e</text>
+  <text x="267.0" y="124.02" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="259.30142556433475" y="182.33436854000504" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="281.3" y="200.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="314.59" y="189.52" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="259.30142556433475" y="241.66563145999493" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="281.3" y="259.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="314.59" y="270.48" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="224.4273842200774" y="289.665631459995" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="246.43" y="307.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="267.0" y="335.98" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="168.0" y="308.0" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="190.0" y="326.0" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="190.0" y="361.0" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="111.57261577992259" y="289.665631459995" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="133.57" y="307.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="113.0" y="335.98" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <rect x="76.69857443566526" y="241.66563145999498" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="98.7" y="259.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">a</text>
+  <text x="65.41" y="270.48" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">7</text>
+  <rect x="76.69857443566525" y="182.33436854000507" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="98.7" y="200.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">b</text>
+  <text x="65.41" y="189.52" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">8</text>
+  <rect x="111.57261577992256" y="134.33436854000507" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="133.57" y="152.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">c</text>
+  <text x="113.0" y="124.02" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">9</text>
+  <text x="390" y="160" font-size="22" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">rear 指向下一个插入位置</text>
+  <text x="390" y="202" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">front = 7；rear = 2</text>
+  <text x="390" y="242" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">空：rear == front</text>
+  <text x="390" y="280" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">满：(rear+1)%M == front</text>
+  <text x="390" y="318" font-size="18" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">n = (rear−front+M)%M = 5</text>
+  <text x="190" y="230" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">front=7</text>
+  <text x="190" y="258" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">rear=2</text>
+  <rect x="168.0" y="421.0" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="190.0" y="439.0" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">d</text>
+  <text x="190.0" y="404.0" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">0</text>
+  <rect x="224.4273842200774" y="439.334368540005" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="246.43" y="457.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">e</text>
+  <text x="267.0" y="429.02" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">1</text>
+  <rect x="259.30142556433475" y="487.3343685400051" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="281.3" y="505.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="314.59" y="494.52" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">2</text>
+  <rect x="259.30142556433475" y="546.665631459995" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="281.3" y="564.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="314.59" y="575.48" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">3</text>
+  <rect x="224.4273842200774" y="594.665631459995" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="246.43" y="612.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="267.0" y="640.98" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">4</text>
+  <rect x="168.0" y="613.0" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="190.0" y="631.0" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="190.0" y="666.0" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">5</text>
+  <rect x="111.57261577992259" y="594.665631459995" width="44" height="36" rx="12" fill="#FFFFFF" stroke="#E9A8BC" stroke-width="2" />
+  <text x="133.57" y="612.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">·</text>
+  <text x="113.0" y="640.98" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">6</text>
+  <rect x="76.69857443566526" y="546.665631459995" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="98.7" y="564.67" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">a</text>
+  <text x="65.41" y="575.48" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">7</text>
+  <rect x="76.69857443566525" y="487.3343685400051" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="98.7" y="505.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">b</text>
+  <text x="65.41" y="494.52" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">8</text>
+  <rect x="111.57261577992256" y="439.3343685400051" width="44" height="36" rx="12" fill="#F8BBD0" stroke="#E9A8BC" stroke-width="2" />
+  <text x="133.57" y="457.33" font-size="21" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="600">c</text>
+  <text x="113.0" y="429.02" font-size="16" fill="#806A71" text-anchor="middle" dominant-baseline="middle" font-weight="400">9</text>
+  <text x="390" y="465" font-size="22" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="600">rear 指向最后一个元素</text>
+  <text x="390" y="507" font-size="21" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">front = 7；rear = 1</text>
+  <text x="390" y="547" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">空：(rear+1)%M == front</text>
+  <text x="390" y="585" font-size="19" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">满：(rear+2)%M == front</text>
+  <text x="390" y="623" font-size="18" fill="#7A3448" text-anchor="start" dominant-baseline="middle" font-weight="400">n = (rear−front+1+M)%M = 5</text>
+  <text x="190" y="535" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">front=7</text>
+  <text x="190" y="563" font-size="18" fill="#7A3448" text-anchor="middle" dominant-baseline="middle" font-weight="400">rear=1</text>
+  <text x="35" y="710" font-size="18" fill="#806A71" text-anchor="start" dominant-baseline="middle" font-weight="400">这里均牺牲一格，最多存 9 个元素；若用 size/tag 占满数组，空满判断须结合辅助变量。</text>
+  <metadata>{"M": 10, "front": 7, "rear_next": 2, "rear_last": 1, "size": 5, "occupied": [7, 8, 9, 0, 1]}</metadata>
+</svg>
