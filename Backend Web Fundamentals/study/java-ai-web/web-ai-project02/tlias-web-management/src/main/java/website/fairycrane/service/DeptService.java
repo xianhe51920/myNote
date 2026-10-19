@@ -9,17 +9,15 @@ public interface DeptService {
     // 返回部门列表
     List<Dept> getAll();
 
-    // 返回删除操作是否成功
-    boolean delete(int id);
+    // 返回删除操作影响行数
+    void deleteById(int id);
 
-    // 返回添加操作是否成功
-    boolean insert(String name);
+    // 返回添加操作影响行数
+    void add(Dept dept);
 
     // 根据id查询返回dept对象
-    Dept getById(int id);
+    Dept getInfo(int id);
 
-    // 检查增删改是否成功
-    boolean success(int num);
-
-
+    // 根据id修改部门名称
+    void update(Dept dept);
 }

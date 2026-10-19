@@ -25,24 +25,30 @@ public class DeptServiceImpl implements DeptService {
 
     // 返回删除操作是否成功
     @Override
-    public boolean delete(int id) {
-        return success(deptMapper.delete(id));
+    public void deleteById(int id) {
+        deptMapper.deleteById(id);
     }
 
     // 返回添加操作是否成功
     @Override
-    public boolean insert(String name) {
-        return success(deptMapper.insert(name));
+    public void add(Dept dept) {
+        // 更新信息
+        dept.setCreateTime(LocalDateTime.now());
+        dept.setUpdateTime(LocalDateTime.now());
+        // 添加
+        deptMapper.insert(dept);
     }
 
+    // 根据id查询部门信息
     @Override
-    public Dept getById(int id) {
-        return null;
+    public Dept getInfo(int id) {
+        return deptMapper.getById(id);
     }
 
-    // 返回增删改操作是否成功
+    // 修改部门信息
     @Override
-    public boolean success(int num) {
-        return num > 0;
+    public void update(Dept dept) {
+        dept.setUpdateTime(LocalDateTime.now());
+        deptMapper.update(dept);
     }
 }
