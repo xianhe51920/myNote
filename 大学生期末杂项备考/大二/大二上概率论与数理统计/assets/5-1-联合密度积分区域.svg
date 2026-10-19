@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="390" viewBox="0 0 800 390">
+<title>联合密度 f(x,y) = 6x：支持域与概率积分域</title>
+<rect x="0" y="0" width="800" height="390" fill="#E8EFF5"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#526D83"/></marker></defs>
+<text x="400.00" y="37.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="21" text-anchor="middle" font-weight="bold">联合密度 f(x,y) = 6x：支持域与概率积分域</text>
+<rect x="67" y="100" width="270" height="220" rx="0" fill="#F3F7FA" stroke="#B7CBDC"/>
+<line x1="67.000" y1="305.455" x2="346.000" y2="305.455" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="92.920" y1="320.000" x2="92.920" y2="92.000" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="348.00" y="312.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">x</text>
+<text x="98.92" y="88.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">y</text>
+<line x1="92.920" y1="305.455" x2="92.920" y2="310.455" stroke="#526D83" stroke-width="1.7"/>
+<text x="92.92" y="330.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">0</text>
+<line x1="200.920" y1="305.455" x2="200.920" y2="310.455" stroke="#526D83" stroke-width="1.7"/>
+<text x="200.92" y="330.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">1/2</text>
+<line x1="308.920" y1="305.455" x2="308.920" y2="310.455" stroke="#526D83" stroke-width="1.7"/>
+<text x="308.92" y="330.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">1</text>
+<line x1="87.920" y1="123.636" x2="92.920" y2="123.636" stroke="#526D83" stroke-width="1.7"/>
+<text x="83.92" y="128.64" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="end" font-weight="normal">1</text>
+<polygon points="92.920,305.455 92.920,123.636 308.920,123.636" fill="#D6E5F0" stroke="#6B9CBE" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="197.00" y="65.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="middle" font-weight="normal">支持域：0 ≤ x ≤ y ≤ 1</text>
+<line x1="92.920" y1="305.455" x2="308.920" y2="123.636" stroke="#346E9D" stroke-width="1.7"/>
+<text x="271.00" y="205.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">y = x</text>
+<text x="105.00" y="363.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="start" font-weight="normal">固定 x：从 y = x 积到 y = 1</text>
+<rect x="467" y="100" width="270" height="220" rx="0" fill="#F3F7FA" stroke="#B7CBDC"/>
+<line x1="467.000" y1="305.455" x2="746.000" y2="305.455" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="492.920" y1="320.000" x2="492.920" y2="92.000" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="748.00" y="312.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">x</text>
+<text x="498.92" y="88.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">y</text>
+<line x1="492.920" y1="305.455" x2="492.920" y2="310.455" stroke="#526D83" stroke-width="1.7"/>
+<text x="492.92" y="330.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">0</text>
+<line x1="600.920" y1="305.455" x2="600.920" y2="310.455" stroke="#526D83" stroke-width="1.7"/>
+<text x="600.92" y="330.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">1/2</text>
+<line x1="708.920" y1="305.455" x2="708.920" y2="310.455" stroke="#526D83" stroke-width="1.7"/>
+<text x="708.92" y="330.45" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">1</text>
+<line x1="487.920" y1="123.636" x2="492.920" y2="123.636" stroke="#526D83" stroke-width="1.7"/>
+<text x="483.92" y="128.64" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="end" font-weight="normal">1</text>
+<polygon points="492.920,305.455 492.920,123.636 708.920,123.636" fill="#D6E5F0" stroke="#6B9CBE" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="492.920,305.455 492.920,123.636 600.920,214.545" fill="#6B9CBE" stroke="#346E9D" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="492.920" y1="123.636" x2="708.920" y2="305.455" stroke="#346E9D" stroke-width="1.7"/>
+<text x="597.00" y="65.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="middle" font-weight="normal">附加条件：x + y ≤ 1</text>
+<line x1="492.920" y1="305.455" x2="708.920" y2="123.636" stroke="#346E9D" stroke-width="1.7"/>
+<text x="671.00" y="205.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">y = x</text>
+<text x="505.00" y="363.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="start" font-weight="normal">0 ≤ x ≤ 1/2，x ≤ y ≤ 1 − x</text>
+</svg>

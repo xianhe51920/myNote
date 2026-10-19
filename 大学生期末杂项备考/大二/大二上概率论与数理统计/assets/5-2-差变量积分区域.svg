@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+<title>Z = X − Y：CDF 对应 y ≥ x − z 的区域</title>
+<rect x="0" y="0" width="900" height="430" fill="#E8EFF5"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#526D83"/></marker></defs>
+<text x="450.00" y="37.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="21" text-anchor="middle" font-weight="bold">Z = X − Y：CDF 对应 y ≥ x − z 的区域</text>
+<rect x="49" y="95" width="205" height="222" rx="0" fill="#F3F7FA" stroke="#B7CBDC"/>
+<line x1="49.000" y1="312.277" x2="263.000" y2="312.277" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="72.654" y1="317.000" x2="72.654" y2="87.000" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="265.00" y="319.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">x</text>
+<text x="78.65" y="83.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">y</text>
+<line x1="72.654" y1="312.277" x2="72.654" y2="317.277" stroke="#526D83" stroke-width="1.7"/>
+<text x="72.65" y="337.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">0</text>
+<line x1="230.346" y1="312.277" x2="230.346" y2="317.277" stroke="#526D83" stroke-width="1.7"/>
+<text x="230.35" y="337.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">1</text>
+<text x="150.00" y="66.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="normal">z &lt; 0</text>
+<polygon points="72.654,95.000 230.346,95.000 230.346,161.128 228.375,162.309 226.404,163.489 224.433,164.670 222.462,165.851 220.490,167.032 218.519,168.213 216.548,169.394 214.577,170.574 212.606,171.755 210.635,172.936 208.663,174.117 206.692,175.298 204.721,176.479 202.750,177.660 200.779,178.840 198.808,180.021 196.837,181.202 194.865,182.383 192.894,183.564 190.923,184.745 188.952,185.926 186.981,187.106 185.010,188.287 183.038,189.468 181.067,190.649 179.096,191.830 177.125,193.011 175.154,194.191 173.183,195.372 171.212,196.553 169.240,197.734 167.269,198.915 165.298,200.096 163.327,201.277 161.356,202.457 159.385,203.638 157.413,204.819 155.442,206.000 153.471,207.181 151.500,208.362 149.529,209.543 147.558,210.723 145.587,211.904 143.615,213.085 141.644,214.266 139.673,215.447 137.702,216.628 135.731,217.809 133.760,218.989 131.788,220.170 129.817,221.351 127.846,222.532 125.875,223.713 123.904,224.894 121.933,226.074 119.962,227.255 117.990,228.436 116.019,229.617 114.048,230.798 112.077,231.979 110.106,233.160 108.135,234.340 106.163,235.521 104.192,236.702 102.221,237.883 100.250,239.064 98.279,240.245 96.308,241.426 94.337,242.606 92.365,243.787 90.394,244.968 88.423,246.149 86.452,247.330 84.481,248.511 82.510,249.691 80.538,250.872 78.567,252.053 76.596,253.234 74.625,254.415 72.654,255.596" fill="#D6E5F0" stroke="#6B9CBE" stroke-width="1" stroke-linejoin="round"/>
+<line x1="72.654" y1="312.277" x2="72.654" y2="95.000" stroke="#6B9CBE" stroke-width="1.7" stroke-dasharray="5 5"/>
+<line x1="230.346" y1="312.277" x2="230.346" y2="95.000" stroke="#6B9CBE" stroke-width="1.7" stroke-dasharray="5 5"/>
+<line x1="72.654" y1="255.596" x2="230.346" y2="161.128" stroke="#346E9D" stroke-width="1.7"/>
+<text x="117.00" y="155.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="start" font-weight="normal">y = x − z</text>
+<text x="150.00" y="365.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="middle" font-weight="normal">阴影向上无界</text>
+<text x="150.00" y="405.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">y 下限始终为 x − z</text>
+<rect x="349" y="95" width="205" height="222" rx="0" fill="#F3F7FA" stroke="#B7CBDC"/>
+<line x1="349.000" y1="312.277" x2="563.000" y2="312.277" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="372.654" y1="317.000" x2="372.654" y2="87.000" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="565.00" y="319.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">x</text>
+<text x="378.65" y="83.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">y</text>
+<line x1="372.654" y1="312.277" x2="372.654" y2="317.277" stroke="#526D83" stroke-width="1.7"/>
+<text x="372.65" y="337.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">0</text>
+<line x1="530.346" y1="312.277" x2="530.346" y2="317.277" stroke="#526D83" stroke-width="1.7"/>
+<text x="530.35" y="337.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">1</text>
+<text x="450.00" y="66.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="normal">0 ≤ z &lt; 1</text>
+<polygon points="372.654,95.000 530.346,95.000 530.346,260.319 528.375,261.500 526.404,262.681 524.433,263.862 522.462,265.043 520.490,266.223 518.519,267.404 516.548,268.585 514.577,269.766 512.606,270.947 510.635,272.128 508.663,273.309 506.692,274.489 504.721,275.670 502.750,276.851 500.779,278.032 498.808,279.213 496.837,280.394 494.865,281.574 492.894,282.755 490.923,283.936 488.952,285.117 486.981,286.298 485.010,287.479 483.038,288.660 481.067,289.840 479.096,291.021 477.125,292.202 475.154,293.383 473.183,294.564 471.212,295.745 469.240,296.926 467.269,298.106 465.298,299.287 463.327,300.468 461.356,301.649 459.385,302.830 457.413,304.011 455.442,305.191 453.471,306.372 451.500,307.553 449.529,308.734 447.558,309.915 445.587,311.096 443.615,312.277 441.644,312.277 439.673,312.277 437.702,312.277 435.731,312.277 433.760,312.277 431.788,312.277 429.817,312.277 427.846,312.277 425.875,312.277 423.904,312.277 421.933,312.277 419.962,312.277 417.990,312.277 416.019,312.277 414.048,312.277 412.077,312.277 410.106,312.277 408.135,312.277 406.163,312.277 404.192,312.277 402.221,312.277 400.250,312.277 398.279,312.277 396.308,312.277 394.337,312.277 392.365,312.277 390.394,312.277 388.423,312.277 386.452,312.277 384.481,312.277 382.510,312.277 380.538,312.277 378.567,312.277 376.596,312.277 374.625,312.277 372.654,312.277" fill="#D6E5F0" stroke="#6B9CBE" stroke-width="1" stroke-linejoin="round"/>
+<line x1="372.654" y1="312.277" x2="372.654" y2="95.000" stroke="#6B9CBE" stroke-width="1.7" stroke-dasharray="5 5"/>
+<line x1="530.346" y1="312.277" x2="530.346" y2="95.000" stroke="#6B9CBE" stroke-width="1.7" stroke-dasharray="5 5"/>
+<line x1="443.615" y1="312.277" x2="530.346" y2="260.319" stroke="#346E9D" stroke-width="1.7"/>
+<text x="417.00" y="155.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="start" font-weight="normal">y = x − z</text>
+<line x1="443.615" y1="312.277" x2="443.615" y2="317.277" stroke="#526D83" stroke-width="1.7"/>
+<text x="443.62" y="337.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">z</text>
+<text x="450.00" y="365.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="middle" font-weight="normal">阴影向上无界</text>
+<text x="450.00" y="405.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">在 x = z 处分段</text>
+<rect x="649" y="95" width="205" height="222" rx="0" fill="#F3F7FA" stroke="#B7CBDC"/>
+<line x1="649.000" y1="312.277" x2="863.000" y2="312.277" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="672.654" y1="317.000" x2="672.654" y2="87.000" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="865.00" y="319.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">x</text>
+<text x="678.65" y="83.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="start" font-weight="normal">y</text>
+<line x1="672.654" y1="312.277" x2="672.654" y2="317.277" stroke="#526D83" stroke-width="1.7"/>
+<text x="672.65" y="337.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">0</text>
+<line x1="830.346" y1="312.277" x2="830.346" y2="317.277" stroke="#526D83" stroke-width="1.7"/>
+<text x="830.35" y="337.28" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">1</text>
+<text x="750.00" y="66.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="normal">z ≥ 1</text>
+<polygon points="672.654,95.000 830.346,95.000 830.346,312.277 828.375,312.277 826.404,312.277 824.433,312.277 822.462,312.277 820.490,312.277 818.519,312.277 816.548,312.277 814.577,312.277 812.606,312.277 810.635,312.277 808.663,312.277 806.692,312.277 804.721,312.277 802.750,312.277 800.779,312.277 798.808,312.277 796.837,312.277 794.865,312.277 792.894,312.277 790.923,312.277 788.952,312.277 786.981,312.277 785.010,312.277 783.038,312.277 781.067,312.277 779.096,312.277 777.125,312.277 775.154,312.277 773.183,312.277 771.212,312.277 769.240,312.277 767.269,312.277 765.298,312.277 763.327,312.277 761.356,312.277 759.385,312.277 757.413,312.277 755.442,312.277 753.471,312.277 751.500,312.277 749.529,312.277 747.558,312.277 745.587,312.277 743.615,312.277 741.644,312.277 739.673,312.277 737.702,312.277 735.731,312.277 733.760,312.277 731.788,312.277 729.817,312.277 727.846,312.277 725.875,312.277 723.904,312.277 721.933,312.277 719.962,312.277 717.990,312.277 716.019,312.277 714.048,312.277 712.077,312.277 710.106,312.277 708.135,312.277 706.163,312.277 704.192,312.277 702.221,312.277 700.250,312.277 698.279,312.277 696.308,312.277 694.337,312.277 692.365,312.277 690.394,312.277 688.423,312.277 686.452,312.277 684.481,312.277 682.510,312.277 680.538,312.277 678.567,312.277 676.596,312.277 674.625,312.277 672.654,312.277" fill="#D6E5F0" stroke="#6B9CBE" stroke-width="1" stroke-linejoin="round"/>
+<line x1="672.654" y1="312.277" x2="672.654" y2="95.000" stroke="#6B9CBE" stroke-width="1.7" stroke-dasharray="5 5"/>
+<line x1="830.346" y1="312.277" x2="830.346" y2="95.000" stroke="#6B9CBE" stroke-width="1.7" stroke-dasharray="5 5"/>
+<text x="750.00" y="365.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="17" text-anchor="middle" font-weight="normal">阴影向上无界</text>
+<text x="750.00" y="405.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="16" text-anchor="middle" font-weight="normal">全部支持域</text>
+</svg>

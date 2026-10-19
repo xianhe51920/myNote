@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380">
+<title>95% 置信区间：均值与方差的不同形状</title>
+<rect x="0" y="0" width="800" height="380" fill="#E8EFF5"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#526D83"/></marker></defs>
+<text x="400.00" y="37.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="21" text-anchor="middle" font-weight="bold">95% 置信区间：均值与方差的不同形状</text>
+<text x="45.00" y="85.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="20" text-anchor="start" font-weight="normal">均值 μ：区间以样本均值为中心</text>
+<line x1="70.000" y1="132.000" x2="730.000" y2="132.000" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="233.979" y1="132.000" x2="566.021" y2="132.000" stroke="#346E9D" stroke-width="7"/>
+<line x1="233.979" y1="122.000" x2="233.979" y2="142.000" stroke="#346E9D" stroke-width="2.5"/>
+<line x1="566.021" y1="122.000" x2="566.021" y2="142.000" stroke="#346E9D" stroke-width="2.5"/>
+<circle cx="400.000" cy="132.000" r="5" fill="#346E9D" stroke="#346E9D" stroke-width="1.8"/>
+<text x="233.98" y="167.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="18" text-anchor="middle" font-weight="normal">14.7128</text>
+<text x="566.02" y="167.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="18" text-anchor="middle" font-weight="normal">15.1872</text>
+<text x="400.00" y="115.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="18" text-anchor="middle" font-weight="normal">x̄ = 14.95</text>
+<text x="45.00" y="240.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="20" text-anchor="start" font-weight="normal">方差 σ²：卡方区间不对称</text>
+<line x1="70.000" y1="287.000" x2="730.000" y2="287.000" stroke="#526D83" stroke-width="1.7" marker-end="url(#arrow)"/>
+<line x1="121.875" y1="287.000" x2="654.294" y2="287.000" stroke="#346E9D" stroke-width="7"/>
+<line x1="121.875" y1="277.000" x2="121.875" y2="297.000" stroke="#346E9D" stroke-width="2.5"/>
+<line x1="654.294" y1="277.000" x2="654.294" y2="297.000" stroke="#346E9D" stroke-width="2.5"/>
+<circle cx="179.641" cy="287.000" r="5" fill="#346E9D" stroke="#346E9D" stroke-width="1.8"/>
+<text x="121.88" y="322.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="18" text-anchor="middle" font-weight="normal">0.01990</text>
+<text x="654.29" y="322.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="18" text-anchor="middle" font-weight="normal">0.30724</text>
+<text x="179.64" y="270.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="18" text-anchor="middle" font-weight="normal">s² = 0.05108</text>
+<text x="400.00" y="363.00" fill="#243E56" font-family="Microsoft YaHei, sans-serif" font-size="18" text-anchor="middle" font-weight="normal">样本量 n = 6；x̄ = 14.95；s = 0.226；自由度 5</text>
+</svg>
