@@ -1,15 +1,12 @@
 package website.fairycrane.controller;
-
-import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.web.HttpRequestHandler;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import website.fairycrane.pojo.Dept;
 import website.fairycrane.pojo.Result;
 import website.fairycrane.service.DeptService;
 
-import java.time.LocalDateTime;
 import java.util.List;
-
+@Slf4j // 生成日志记录对象，log，不用自己定义日志对象
 @RequestMapping("/depts") // 抽取路径公共部分
 @RestController
 public class DeptController {
@@ -25,6 +22,7 @@ public class DeptController {
     // 限定请求方式
     @GetMapping
     public Result list() {
+        log.info("部门列表查询");
         List<Dept> deptlist = deptService.getAll();
         return Result.success(deptlist);
     }
@@ -50,6 +48,7 @@ public class DeptController {
     // 方式三：如果请求参数名与形参变量名相同，直接定义方法形参即可接收。（省略@RequestParam）推荐
     @DeleteMapping
     public Result delete(Integer id) {
+        log.info("删除部门id={}",id);
         deptService.deleteById(id);
         return Result.success();
     }
@@ -59,6 +58,7 @@ public class DeptController {
     // 规则：JSON数据的键名与方法形参对象的属性名相同，并需要使用@RequestBody注解标识。
     @PostMapping
     public Result insert(@RequestBody Dept dept) {
+        log.info("添加部门{}",dept);
         deptService.add(dept);
         return Result.success();
     }
@@ -74,6 +74,7 @@ public class DeptController {
     // 形参名和路径参数名一致可省略@PathVariable的参数
     @GetMapping("/{id}")
     public Result getInfo(@PathVariable Integer id) {
+        log.info("获取部门信息id={}",id);
         Dept dept = deptService.getInfo(id);
         return Result.success(dept);
     }
@@ -81,6 +82,7 @@ public class DeptController {
     // 根据id修改部门
     @PutMapping
     public Result update(@RequestBody Dept dept) {
+        log.info("修改部门信息:{}",dept);
         deptService.update(dept);
         return Result.success();
     }
