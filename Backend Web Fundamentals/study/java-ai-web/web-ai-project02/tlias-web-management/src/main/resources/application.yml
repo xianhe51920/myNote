@@ -9,6 +9,12 @@ spring:
     username: root
     password: jh666666
 
+  # 配置文件上传大小限制
+  servlet:
+    multipart:
+      max-file-size: 10MB # 单个文件最大大小
+      max-request-size: 100MB # 最大请求总大小（包含所有文件和表单数据）
+
 
 mybatis:
   configuration:
@@ -18,3 +24,19 @@ mybatis:
     map-underscore-to-camel-case: true
   # mapper映射位置
 #  mapper-locations: classpath:mapper/*.xml
+
+#配置事务管理日志级别
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+#配置阿里云oss参数
+aliyun:
+  oss:
+    endpoint: https://oss-cn-chengdu.aliyuncs.com
+    bucketName: fairycrane-java-oss-learn
+    region: cn-chengdu
+
+
+
+

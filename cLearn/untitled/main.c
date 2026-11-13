@@ -1,134 +1,136 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define MAXSIZE 20
 
-// ����˳���
-struct sqList {
-    int arr[MAXSIZE];
-    int size;
-};
+/* ================= 链栈类型定义（带头节点） ================= */
+typedef struct StackNode {
+    int data;               // 结点数据域
+    struct StackNode *next; // 结点指针域
+} StackNode, *LinkStack;
 
-// ������ɳ���Ϊ10��˳���
-struct sqList creat_sq_list() {
-    struct sqList sqList;
-    sqList.size = 0;
+/* ================= 基本操作函数 ================= */
+
+// 初始化空栈：建立头节点，其 next 置空
+int InitStack(LinkStack *ls) {
+    *ls = (StackNode *) malloc(sizeof(StackNode));
+    if (*ls == NULL) {      // 头节点分配失败
+        return 0;
+    }
+    (*ls)->next = NULL;
+    return 1;
+}
+
+// 判空：头节点的 next 为空即栈空，返回 1
+int StackEmpty(LinkStack ls) {
+    return ls->next == NULL;
+}
+
+// 入栈：在头节点之后插入新结点，e 为入栈元素，成功返回 1
+int Push(LinkStack ls, int e) {
+    StackNode *p = (StackNode *) malloc(sizeof(StackNode));
+    if (p == NULL) {        // 内存分配失败
+        return 0;
+    }
+    p->data = e;
+    p->next = ls->next;     // 新结点指向原栈顶结点
+    ls->next = p;           // 头节点指向新结点，使其成为栈顶
+    return 1;
+}
+
+// 出栈：删除头节点后的首个结点，用 e 带回栈顶元素值
+// 成功返回 1；栈空（下溢）返回 0
+int Pop(LinkStack ls, int *e) {
+    if (StackEmpty(ls)) {   // 下溢判断
+        return 0;
+    }
+    StackNode *p = ls->next;
+    *e = p->data;           // 保存栈顶元素值
+    ls->next = p->next;     // 头节点指向下一个结点
+    free(p);                // 释放原栈顶结点
+    return 1;
+}
+
+// 取栈顶元素：不修改栈，仅用 e 带回栈顶元素值
+// 成功返回 1；栈空返回 0
+int GetTop(LinkStack ls, int *e) {
+    if (StackEmpty(ls)) {
+        return 0;
+    }
+    *e = ls->next->data;    // 栈顶是头节点的下一个结点
+    return 1;
+}
+
+// 销毁栈：连同头节点一起释放，避免内存泄漏
+void DestroyStack(LinkStack *ls) {
+    StackNode *p = *ls;
+    while (p != NULL) {
+        StackNode *q = p;
+        p = p->next;
+        free(q);
+    }
+    *ls = NULL;
+}
+
+/* ================= 实验功能封装 ================= */
+
+// 随机产生 10 个 100 以内的整数并依次入栈，打印入栈序列
+void PushRandom(LinkStack ls) {
+    printf("---- 依次入栈 10 个 100 以内的随机整数 ----\n");
+    printf("入栈顺序: ");
     for (int i = 0; i < 10; i++) {
-        sqList.arr[i] = rand() % 100;
-        sqList.size++;
-    }
-    return sqList;
-}
-
-// ����a�治����
-int isExist(int a, struct sqList sqlist) {
-    for (int i = 0; i < sqlist.size; i++) {
-        if (sqlist.arr[i] == a) {
-            return i;
-        }
-    }
-    return -1;
-}
-
-// ��b����a����
-void insert(int a, int b, struct sqList *sqlist) {
-    // a����
-    int idx = isExist(a, *sqlist);
-    if (idx != -1) {
-        for (int i = sqlist->size - 1; i > idx; i--) {
-            sqlist->arr[i + 1] = sqlist->arr[i];
-        }
-        sqlist->arr[idx + 1] = b;
-    } else {
-        sqlist->arr[sqlist->size] = b;
-    }
-    sqlist->size++;
-}
-
-// ��ӡ˳���
-void printList(struct sqList sqList) {
-    for (int i = 0; i < sqList.size; i++) {
-        printf("%d ", sqList.arr[i]);
+        int e = rand() % 100; // [0, 99]
+        Push(ls, e);
+        printf("%d ", e);
     }
     printf("\n");
 }
 
-// ɾ��Ԫ��
-int deleteE(int a, struct sqList *sqList) {
-    int idx = isExist(a, *sqList);
-    if (idx != -1) {
-        for (int i = idx; i < sqList->size-1; i++) {
-            sqList->arr[i] = sqList->arr[i+1];
+// 从键盘输入出栈元素个数 n（n<10），将 n 个元素出栈并显示，考虑下溢
+void PopN(LinkStack ls) {
+    int n;
+    printf("请输入出栈元素个数 n (n<10): ");
+    if (scanf("%d", &n) != 1 || n <= 0) {
+        printf("输入无效，无元素出栈。\n");
+        return;
+    }
+
+    printf("出栈顺序: ");
+    for (int i = 0; i < n; i++) {
+        int e;
+        if (Pop(ls, &e)) {          // Pop 内部完成下溢判断
+            printf("%d ", e);
+        } else {
+            printf("\n栈已空，发生下溢，停止出栈！");
+            break;
         }
-        sqList->size--;
+    }
+    printf("\n");
+}
+
+// 取栈顶元素并显示，若栈空则提示
+void ShowTop(LinkStack ls) {
+    int e;
+    if (GetTop(ls, &e)) {
+        printf("当前栈顶元素为: %d\n", e);
+    } else {
+        printf("栈空，无法取栈顶元素！\n");
+    }
+}
+
+/* ================= 主函数 ================= */
+int main() {
+    LinkStack ls;        // 指向头节点的栈指针
+    if (!InitStack(&ls)) { // 建立带头节点的空栈
+        printf("栈初始化失败！\n");
         return 1;
     }
-    return 0;
-}
-// ����a��b��ֵ
-void swap(int *a, int*b) {
-    int tmp = *a;
-    *a = *b;
-    *b = tmp;
-}
 
-// ˳�����ð������������Ƿǵݼ������
-void mySort(struct sqList *sqList) {
-    for (int i = 0; i < sqList->size-1; i++) {
-        for (int j = 0; j < sqList->size-1-i; j++) {
-            if (sqList->arr[j] > sqList->arr[j+1]) {
-                swap(&sqList->arr[j],&sqList->arr[j+1]);
-            }
-        }
-    }
-}
+    srand((unsigned) time(NULL)); // 以当前时间作为随机数种子
 
-// �鲢�����ǵݼ������
-struct sqList mergeSqList(struct sqList sql1,struct sqList sql2) {
-    int j = 0;
-    for (int i = sql1.size; i < sql1.size+sql2.size-1; i++) {
-        sql1.arr[i] = sql2.arr[j];
-        j++;
-    }
-    sql1.size += sql2.size;
-    mySort(&sql1);
-    return sql1;
-}
-int main(void) {
-    srand((unsigned) time(NULL));
-    printf("�������һ��˳�����");
-    struct sqList sqList = creat_sq_list();
-    printf("��ʾ˳����е�Ԫ�أ�\n");
-    printList(sqList);
-    printf("\n");
-    printf("��ֵΪb��Ԫ�ز���ֵΪa��Ԫ�غ���\n");
-    printf("������a,b��");
-    int a, b;
-    scanf("%d%d", &a, &b);
-    insert(a, b, &sqList);
-    printf("��ʾ���º��˳�����\n");
-    printList(sqList);
-    printf("ɾ��ֵΪa��Ԫ��\n");
-    printf("������a��");
-    scanf("%d",&a);
-    if (deleteE(a,&sqList) == 0) {
-        printf("δ�ҵ���Ԫ�أ����������룺");
-        scanf("%d",&a);
-    }
-    printf("��ʾ���º��˳�����\n");
-    printList(sqList);
-    printf("������������ǵݼ��������\n");
-    struct sqList sql1 = creat_sq_list();
-    struct sqList sql2 = creat_sq_list();
-    // ����Ϊ�ǵݼ������
-    mySort(&sql1);
-    mySort(&sql2);
-    // ���
-    printList(sql1);
-    printList(sql2);
-    printf("�鲢�����������\n");
-    struct sqList sql3 = mergeSqList(sql1,sql2);
-    // ����鲢��������
-    printList(sql3);
+    PushRandom(ls);  // 1. 入栈操作
+    PopN(ls);        // 2. 出栈操作（含下溢判断）
+    ShowTop(ls);     // 3. 取栈顶元素操作
+
+    DestroyStack(&ls); // 释放栈内存（含头节点）
     return 0;
 }

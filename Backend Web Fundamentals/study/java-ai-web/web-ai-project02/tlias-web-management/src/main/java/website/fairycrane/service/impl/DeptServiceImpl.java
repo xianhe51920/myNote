@@ -23,13 +23,13 @@ public class DeptServiceImpl implements DeptService {
         return deptMapper.getAll();
     }
 
-    // 返回删除操作是否成功
+    // 删除部门
     @Override
     public void deleteById(int id) {
         deptMapper.deleteById(id);
     }
 
-    // 返回添加操作是否成功
+    // 添加部门
     @Override
     public void add(Dept dept) {
         // 更新信息

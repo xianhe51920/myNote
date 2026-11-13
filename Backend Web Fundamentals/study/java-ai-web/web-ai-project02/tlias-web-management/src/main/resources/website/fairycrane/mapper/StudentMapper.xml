@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="website.fairycrane.mapper.StudentMapper">
+    <insert id="insertStudent">
+        insert into student
+        (name, no, gender, phone, degree, clazz_id, create_time, update_time
+        <if test="idCard != null and idCard != ''">, id_card</if>
+        <if test="isCollege != null">, is_college</if>
+        <if test="address != null and address != ''">, address</if>
+        <if test="graduationDate != null">, graduation_date</if>)
+        values
+        (#{name}, #{no}, #{gender}, #{phone}, #{degree}, #{clazzId}, #{createTime}, #{updateTime}
+        <if test="idCard != null and idCard != ''">, #{idCard}</if>
+        <if test="isCollege != null">, #{isCollege}</if>
+        <if test="address != null and address != ''">, #{address}</if>
+        <if test="graduationDate != null">, #{graduationDate}</if>)
+    </insert>
+    <update id="updateStudent">
+        update student
+        <set>
+            <if test="name != null and name != ''">name = #{name},</if>
+            <if test="no != null and no != ''">no = #{no},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="phone != null and phone != ''">phone = #{phone},</if>
+            <if test="degree != null">degree = #{degree},</if>
+            <if test="idCard != null and idCard != ''">id_card = #{idCard},</if>
+            <if test="isCollege != null">is_college = #{isCollege},</if>
+            <if test="address != null and address != ''">address = #{address},</if>
+            <if test="graduationDate != null">graduation_date = #{graduationDate},</if>
+            <if test="clazzId != null">clazz_id = #{clazzId},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </set>
+        where id = #{id}
+    </update>
+    <delete id="deleteStudentById">
+        delete from student where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="page" resultType="website.fairycrane.pojo.Student">
+        select s.id,
+        s.name,
+        s.no,
+        s.gender,
+        s.phone,
+        s.degree,
+        s.id_card,
+        s.is_college,
+        s.address,
+        s.graduation_date,
+        s.violation_count,
+        s.violation_score,
+        s.clazz_id,
+        s.create_time,
+        s.update_time,
+        c.name as clazzName
+        from student s
+        left join clazz c on s.clazz_id = c.id
+        <where>
+            <if test="name != null and name != ''">
+                and s.name like concat('%', #{name}, '%')
+            </if>
+            <if test="degree != null">
+                and s.degree = #{degree}
+            </if>
+            <if test="clazzId != null">
+                and s.clazz_id = #{clazzId}
+            </if>
+        </where>
+        order by s.update_time desc
+    </select>
+</mapper>

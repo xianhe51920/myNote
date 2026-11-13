@@ -4,13 +4,13 @@ import com.github.pagehelper.Page;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.springframework.format.annotation.DateTimeFormat;
 import website.fairycrane.pojo.Emp;
 import website.fairycrane.pojo.EmpQueryParam;
 
-import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface EmpMapper {
@@ -24,8 +24,25 @@ public interface EmpMapper {
     Page<Emp> list(EmpQueryParam empQueryParam);
 
     // 保存员工基本信息
+    // 使用Options注解，开启主键回调，返回主键id
     @Options(useGeneratedKeys = true, keyProperty = "id")
     @Insert("insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time) " +
             "values (#{username}, #{name}, #{gender}, #{phone}, #{job}, #{salary}, #{image}, #{entryDate}, #{deptId}, #{createTime}, #{updateTime})")
     void insert(Emp emp);
+
+    // 删除员工基本信息
+    void deleteById(List<Integer> idList);
+
+    // 根据id查询员工头像链接
+    List<String> getImagesByIds(@Param("ids") List<Integer> ids);
+
+    Emp getInfoById(Integer id);
+
+    // 更新员工基本信息
+    void update(Emp emp);
+
+    // 统计员工职位人数
+    List<Map<String,Object>> countEmpJobData();
+
+    List<Map<String, Object>> countEmpGenderData();
 }

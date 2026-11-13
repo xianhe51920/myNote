@@ -20,6 +20,7 @@ public class DeptController {
     //    @RequestMapping(value = "/depts",method = RequestMethod.GET)
     // 部门列表查询
     // 限定请求方式
+    // 同时映射 /depts 和 /depts/list，避免 /depts/list 被下面的 /{id} 误匹配
     @GetMapping
     public Result list() {
         log.info("部门列表查询");
@@ -72,6 +73,7 @@ public class DeptController {
     // }
 
     // 形参名和路径参数名一致可省略@PathVariable的参数
+    // 加 \\d+ 正则约束，只匹配数字 id，防止 /depts/list 这类路径被当成 id 解析
     @GetMapping("/{id}")
     public Result getInfo(@PathVariable Integer id) {
         log.info("获取部门信息id={}",id);

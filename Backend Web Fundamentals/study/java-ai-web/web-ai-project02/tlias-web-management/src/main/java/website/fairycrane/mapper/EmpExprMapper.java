@@ -10,4 +10,7 @@ import java.util.List;
 public interface EmpExprMapper {
     // 保存员工工作经历
     void insert(List<EmpExpr> exprList);
+
+    // 删除员工工作经历
+    void deleteByEmpId(List<Integer> idList);
 }
