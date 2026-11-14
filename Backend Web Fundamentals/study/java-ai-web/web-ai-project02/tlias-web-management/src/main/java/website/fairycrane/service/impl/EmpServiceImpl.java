@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import website.fairycrane.mapper.EmpExprMapper;
 import website.fairycrane.mapper.EmpMapper;
 import website.fairycrane.pojo.*;
-import website.fairycrane.service.EmpLogService;
 import website.fairycrane.service.EmpService;
 import website.fairycrane.utils.AliyunOSSOperator;
 
@@ -24,15 +23,13 @@ import java.util.Map;
 public class EmpServiceImpl implements EmpService {
     private final EmpMapper empMapper;
     private final EmpExprMapper empExprMapper;
-    private final EmpLogService empLogService;
     private final AliyunOSSOperator aliyunOSSOperator;
 
     @Autowired
-    public EmpServiceImpl(EmpMapper empMapper, EmpExprMapper empExprMapper, EmpLogService empLogService,
+    public EmpServiceImpl(EmpMapper empMapper, EmpExprMapper empExprMapper,
                           AliyunOSSOperator aliyunOSSOperator) {
         this.empMapper = empMapper;
         this.empExprMapper = empExprMapper;
-        this.empLogService = empLogService;
         this.aliyunOSSOperator = aliyunOSSOperator;
     }
 
@@ -63,7 +60,7 @@ public class EmpServiceImpl implements EmpService {
                 empExprMapper.insert(exprList);
             }
         } finally {
-            empLogService.insertLog(new EmpLog(null,LocalDateTime.now(),"新增员工" + emp));
+
         }
     }
 

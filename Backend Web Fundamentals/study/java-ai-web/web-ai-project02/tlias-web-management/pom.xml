@@ -65,6 +65,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <!--AOP切面依赖：Spring Boot 4 中由 spring-boot-starter-aspectj 提供 aspectjweaver（@Aspect / ProceedingJoinPoint 等）-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aspectj</artifactId>
+        </dependency>
         <!--分页插件PageHelper-->
         <dependency>
             <groupId>com.github.pagehelper</groupId>

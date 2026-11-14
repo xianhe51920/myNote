@@ -1,27 +1,17 @@
 package website.fairycrane;
 
 import org.junit.jupiter.api.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import website.fairycrane.pojo.Log;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class LogTest {
+    private final Log log = new Log();
 
-    private static final Logger log = LoggerFactory.getLogger(LogTest.class);
     @Test
-    public void testLog(){
-//        System.out.println(LocalDateTime.now() + " : 开始计算...");
-        log.debug("开始计算");
-        int sum = 0;
-        int[] nums = {1, 5, 3, 2, 1, 4, 5, 4, 6, 7, 4, 34, 2, 23};
-        for (int num : nums) {
-            sum += num;
-        }
-        
-        System.out.println("计算结果为: "+sum);
-//        System.out.println(LocalDateTime.now() + "结束计算...");
-        log.debug("结束计算");
+    public void logTest() {
+        log.setOperateTime(LocalDateTime.now());
+        System.out.println(log.getOperateTime().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")));
     }
-
 }
