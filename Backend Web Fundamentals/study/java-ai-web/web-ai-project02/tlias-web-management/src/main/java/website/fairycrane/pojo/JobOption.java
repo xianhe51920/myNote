@@ -11,5 +11,5 @@ import java.util.List;
 @AllArgsConstructor
 public class JobOption {
     private List<String> jobList;
-    private List<Object> dataList;
+    private List<Long> dataList;
 }

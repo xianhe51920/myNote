@@ -19,7 +19,8 @@ public class ReportServiceImpl implements ReportService {
     public JobOption getEmpJobData() {
         List<Map<String, Object>> list = empMapper.countEmpJobData();
         List<String> jobList = list.stream().map(dataMap -> (String)dataMap.get("pos")).toList();
-        List<Object> dataList = list.stream().map(dataMap -> dataMap.get("num")).toList();
+        // count(*) 在 MySQL 中是 BIGINT，JDBC 驱动映射为 Long
+        List<Long> dataList = list.stream().map(dataMap -> (Long) dataMap.get("num")).toList();
         return new JobOption(jobList,dataList);
 
 

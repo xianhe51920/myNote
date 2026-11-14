@@ -9,6 +9,7 @@ import website.fairycrane.pojo.Student;
 import website.fairycrane.pojo.StudentParam;
 
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface StudentMapper {
@@ -26,4 +27,8 @@ public interface StudentMapper {
 
     @Update("update student set violation_score=#{score} where id=#{id}")
     void violate(Integer id, Integer score);
+
+    List<Map<String, Object>> getStudentDegreeData();
+
+    List<Map<String, Object>> studentCountData();
 }
